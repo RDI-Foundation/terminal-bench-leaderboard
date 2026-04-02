@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "score": 0,
+      "max_score": 10,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "bn-fit-modify": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "break-filter-js-from-html": {
+          "reward": 0
+        },
+        "build-cython-ext": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "build-pmars": {
+          "reward": 0
+        },
+        "build-pov-ray": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "caffe-cifar-10": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "cancel-async-tasks": {
+          "reward": 0
+        },
+        "chess-best-move": {
+          "reward": 0
+        },
+        "circuit-fibsqrt": {
+          "reward": 0
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019d0530-5ba1-7fb2-a23b-63dbd0780541",
+    "agent": "019d0532-530a-7602-90e0-0acc41723ef7"
+  }
+}

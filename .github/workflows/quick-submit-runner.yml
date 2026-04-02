@@ -1,7 +1,6 @@
 # Reusable workflow - called from leaderboard repos via quick-submit.yml (@v1).
 # After making changes, move the tag so leaderboard repos using @v1 pick up the update:
 #   git tag -f v1 && git push origin v1 --force
-# Supports experimental Docker features for framework.docker scenarios
 
 name: Quick-Submit Amber Runner
 
@@ -25,7 +24,6 @@ jobs:
       AMBER_COMPOSE_DIR: amber-compose
       AMBER_COMPOSE_PROJECT: amber-quick-submit-${{ github.run_id }}-${{ github.run_attempt }}
       AMBER_PROXY_PORT: "18080"
-      AMBER_EXPERIMENTAL_DOCKER_ENABLED: ${{ vars.AMBER_EXPERIMENTAL_DOCKER_ENABLED || 'true' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -209,31 +207,14 @@ jobs:
             fi
             echo "Scenario uses framework.docker; exporting /var/run/docker.sock to Docker Compose"
             echo "AMBER_DOCKER_SOCK=/var/run/docker.sock" >> "${GITHUB_ENV}"
-            echo "AMBER_EXPERIMENTAL_DOCKER=true" >> "${GITHUB_ENV}"
           else
             echo "Scenario does not use framework.docker"
-          fi
-
-      - name: Setup experimental Docker features
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [[ "${AMBER_EXPERIMENTAL_DOCKER:-false}" == "true" ]]; then
-            echo "Experimental Docker feature enabled"
-            echo "AMBER_DOCKER_EXPERIMENTAL_MODE=true" >> "${GITHUB_ENV}"
-            if [[ -S /var/run/docker.sock ]]; then
-              echo "Docker socket available for experimental features"
-              ls -la /var/run/docker.sock || true
-            fi
           fi
 
       - name: Run scenario
         shell: bash
         run: |
           set -euo pipefail
-          if [[ "${AMBER_DOCKER_EXPERIMENTAL_MODE:-false}" == "true" ]]; then
-            echo "[EXPERIMENTAL DOCKER] Running scenario with experimental Docker features enabled"
-          fi
           compose=(docker compose -f "${AMBER_COMPOSE_DIR}/compose.yaml" -p "${AMBER_COMPOSE_PROJECT}")
           proxy_pid=""
           logs_pid=""
@@ -256,12 +237,6 @@ jobs:
             exit "${exit_code}"
           }
           trap cleanup EXIT
-
-          # Support experimental Docker features by passing socket if available
-          if [[ "${AMBER_DOCKER_EXPERIMENTAL_MODE:-false}" == "true" && -n "${AMBER_DOCKER_SOCK:-}" ]]; then
-            echo "[EXPERIMENTAL DOCKER] Mounting Docker socket: ${AMBER_DOCKER_SOCK}"
-            export DOCKER_HOST="unix://${AMBER_DOCKER_SOCK}"
-          fi
 
           "${compose[@]}" up -d
           "${compose[@]}" logs -f --no-color &

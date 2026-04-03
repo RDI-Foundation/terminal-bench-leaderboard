@@ -19,13 +19,19 @@ The scenario runner (GitHub Actions workflow) runs assessments automatically whe
 
 ## Configuration
 
-Assessment parameters are set in the `[config]` section of `scenario.toml`:
+Terminal Bench defaults to evaluating all tasks. Parallel evaluation is configured
+at the workflow layer rather than in `scenario.toml`.
 
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| `concurrency` | Number of tasks to run in parallel | `3` |
+To enable sharded evaluation across multiple GitHub runners, edit
+`.github/workflows/quick-submit.yml` and increase `num_shards`:
 
-Increase `concurrency` to speed up the assessment at the cost of higher resource usage.
+```yaml
+with:
+  num_shards: 4
+```
+
+Each shard runs a separate scenario stack and the workflow merges the shard
+results into one submission.
 
 ## Scoring
 

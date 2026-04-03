@@ -6,7 +6,3 @@ env = {}
 agentbeats_id = ""
 name = "agent"
 env = { AGENT_LLM = "openai/gpt-4o-mini", OPENAI_API_KEY = "${OPENAI_API_KEY}", GEMINI_API_KEY = "${GEMINI_API_KEY}" }
-
-[config]
-# Max parallel tasks
-concurrency = 3

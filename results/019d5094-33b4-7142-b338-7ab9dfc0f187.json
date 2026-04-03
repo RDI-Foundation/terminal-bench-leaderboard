@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "score": 0,
+      "max_score": 10,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "Local task /tmp/tb-workspace/repo/adaptive-rejection-sampler not found"
+        },
+        "bn-fit-modify": {
+          "error": "Local task /tmp/tb-workspace/repo/bn-fit-modify not found"
+        },
+        "break-filter-js-from-html": {
+          "error": "Local task /tmp/tb-workspace/repo/break-filter-js-from-html not found"
+        },
+        "build-cython-ext": {
+          "error": "Local task /tmp/tb-workspace/repo/build-cython-ext not found"
+        },
+        "build-pmars": {
+          "error": "Local task /tmp/tb-workspace/repo/build-pmars not found"
+        },
+        "build-pov-ray": {
+          "error": "Local task /tmp/tb-workspace/repo/build-pov-ray not found"
+        },
+        "caffe-cifar-10": {
+          "error": "Local task /tmp/tb-workspace/repo/caffe-cifar-10 not found"
+        },
+        "cancel-async-tasks": {
+          "error": "Local task /tmp/tb-workspace/repo/cancel-async-tasks not found"
+        },
+        "chess-best-move": {
+          "error": "Local task /tmp/tb-workspace/repo/chess-best-move not found"
+        },
+        "circuit-fibsqrt": {
+          "error": "Local task /tmp/tb-workspace/repo/circuit-fibsqrt not found"
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019d0530-5ba1-7fb2-a23b-63dbd0780541",
+    "agent": "019d0532-530a-7602-90e0-0acc41723ef7"
+  }
+}

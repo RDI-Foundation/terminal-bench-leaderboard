@@ -1,0 +1,283 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "score": 0,
+      "max_score": 89,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/dc59dbd83440442a8638d8a1a26113cc/verifier/reward.txt or /tmp/tb-workspace/trials/dc59dbd83440442a8638d8a1a26113cc/verifier/reward.json"
+        },
+        "bn-fit-modify": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/4df65da3e3df485288bad77d45e2a797/verifier/reward.txt or /tmp/tb-workspace/trials/4df65da3e3df485288bad77d45e2a797/verifier/reward.json"
+        },
+        "break-filter-js-from-html": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/229d93a41d8f408aa0f4ac23745f68b0/verifier/reward.txt or /tmp/tb-workspace/trials/229d93a41d8f408aa0f4ac23745f68b0/verifier/reward.json"
+        },
+        "build-cython-ext": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/6104eb446bf241448dd5ad56a511cf10/verifier/reward.txt or /tmp/tb-workspace/trials/6104eb446bf241448dd5ad56a511cf10/verifier/reward.json"
+        },
+        "build-pmars": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/c0929bd324b94334ae9f1876c0e4fa1e/verifier/reward.txt or /tmp/tb-workspace/trials/c0929bd324b94334ae9f1876c0e4fa1e/verifier/reward.json"
+        },
+        "build-pov-ray": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/aa427551ab3b4bf2ab9a0c680c853da7/verifier/reward.txt or /tmp/tb-workspace/trials/aa427551ab3b4bf2ab9a0c680c853da7/verifier/reward.json"
+        },
+        "caffe-cifar-10": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/16c61a0e9e6647cb87e53c12366d5f26/verifier/reward.txt or /tmp/tb-workspace/trials/16c61a0e9e6647cb87e53c12366d5f26/verifier/reward.json"
+        },
+        "cancel-async-tasks": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/ca80bd32341d4e75800bea9cb2effb89/verifier/reward.txt or /tmp/tb-workspace/trials/ca80bd32341d4e75800bea9cb2effb89/verifier/reward.json"
+        },
+        "chess-best-move": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/79db1870854a4f79acfd9b762a24c109/verifier/reward.txt or /tmp/tb-workspace/trials/79db1870854a4f79acfd9b762a24c109/verifier/reward.json"
+        },
+        "circuit-fibsqrt": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/34f0e7a8007c4da4a1a47b57b277ee0f/verifier/reward.txt or /tmp/tb-workspace/trials/34f0e7a8007c4da4a1a47b57b277ee0f/verifier/reward.json"
+        },
+        "cobol-modernization": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/f896174aeabb44c9989d560621a90b2c/verifier/reward.txt or /tmp/tb-workspace/trials/f896174aeabb44c9989d560621a90b2c/verifier/reward.json"
+        },
+        "code-from-image": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/108c23d916824e47a6cefd6eb44f9219/verifier/reward.txt or /tmp/tb-workspace/trials/108c23d916824e47a6cefd6eb44f9219/verifier/reward.json"
+        },
+        "compile-compcert": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/d323ca35cf4e4e52b4d44dfa2af19a92/verifier/reward.txt or /tmp/tb-workspace/trials/d323ca35cf4e4e52b4d44dfa2af19a92/verifier/reward.json"
+        },
+        "configure-git-webserver": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/7e578cdda217458aa8f1d5a435fdf411/verifier/reward.txt or /tmp/tb-workspace/trials/7e578cdda217458aa8f1d5a435fdf411/verifier/reward.json"
+        },
+        "constraints-scheduling": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/d76442786782485ba99248deab283c6d/verifier/reward.txt or /tmp/tb-workspace/trials/d76442786782485ba99248deab283c6d/verifier/reward.json"
+        },
+        "count-dataset-tokens": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/d5f1343740384eb2af19ce68935d6d56/verifier/reward.txt or /tmp/tb-workspace/trials/d5f1343740384eb2af19ce68935d6d56/verifier/reward.json"
+        },
+        "crack-7z-hash": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/1af1b29481f14b6ba8c130f49162e225/verifier/reward.txt or /tmp/tb-workspace/trials/1af1b29481f14b6ba8c130f49162e225/verifier/reward.json"
+        },
+        "custom-memory-heap-crash": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/5ae9e0f3f5a84f15b191a9520bb18266/verifier/reward.txt or /tmp/tb-workspace/trials/5ae9e0f3f5a84f15b191a9520bb18266/verifier/reward.json"
+        },
+        "db-wal-recovery": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/718740b67a2344738cef0bea96816554/verifier/reward.txt or /tmp/tb-workspace/trials/718740b67a2344738cef0bea96816554/verifier/reward.json"
+        },
+        "distribution-search": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/781fa2f5b424467f9146e676973c1730/verifier/reward.txt or /tmp/tb-workspace/trials/781fa2f5b424467f9146e676973c1730/verifier/reward.json"
+        },
+        "dna-assembly": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/7084d653cd524cb981e1f8e0877e376e/verifier/reward.txt or /tmp/tb-workspace/trials/7084d653cd524cb981e1f8e0877e376e/verifier/reward.json"
+        },
+        "dna-insert": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/6c13d604d5ed4ddab30c579011e1ab16/verifier/reward.txt or /tmp/tb-workspace/trials/6c13d604d5ed4ddab30c579011e1ab16/verifier/reward.json"
+        },
+        "extract-elf": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/91dcb01e5abb4933a0b502df99fc78f7/verifier/reward.txt or /tmp/tb-workspace/trials/91dcb01e5abb4933a0b502df99fc78f7/verifier/reward.json"
+        },
+        "extract-moves-from-video": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/b6ca862b05a84a888361c7aa93be1bc5/verifier/reward.txt or /tmp/tb-workspace/trials/b6ca862b05a84a888361c7aa93be1bc5/verifier/reward.json"
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/4544fcaf7927451aae4982f11b7c2a23/verifier/reward.txt or /tmp/tb-workspace/trials/4544fcaf7927451aae4982f11b7c2a23/verifier/reward.json"
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/1e3b5208e3894e53a6f46810cbe52092/verifier/reward.txt or /tmp/tb-workspace/trials/1e3b5208e3894e53a6f46810cbe52092/verifier/reward.json"
+        },
+        "filter-js-from-html": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/d768615a42794641ae2c6e13bc2aa914/verifier/reward.txt or /tmp/tb-workspace/trials/d768615a42794641ae2c6e13bc2aa914/verifier/reward.json"
+        },
+        "financial-document-processor": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/dbcc4adaf820420bb177798d931d3028/verifier/reward.txt or /tmp/tb-workspace/trials/dbcc4adaf820420bb177798d931d3028/verifier/reward.json"
+        },
+        "fix-code-vulnerability": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/50593e9404af486fb7f67923c3173058/verifier/reward.txt or /tmp/tb-workspace/trials/50593e9404af486fb7f67923c3173058/verifier/reward.json"
+        },
+        "fix-git": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/a8f355776c53450385cd933f9900733b/verifier/reward.txt or /tmp/tb-workspace/trials/a8f355776c53450385cd933f9900733b/verifier/reward.json"
+        },
+        "fix-ocaml-gc": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/a71d717a258947ebb38de15630317a7e/verifier/reward.txt or /tmp/tb-workspace/trials/a71d717a258947ebb38de15630317a7e/verifier/reward.json"
+        },
+        "gcode-to-text": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/d14752ab65ee4c249049df7c511e60ec/verifier/reward.txt or /tmp/tb-workspace/trials/d14752ab65ee4c249049df7c511e60ec/verifier/reward.json"
+        },
+        "git-leak-recovery": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/d94ede23a2c24298812cb146ddb16282/verifier/reward.txt or /tmp/tb-workspace/trials/d94ede23a2c24298812cb146ddb16282/verifier/reward.json"
+        },
+        "git-multibranch": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/25a700a12d924ffd9ccea4ab711f24b2/verifier/reward.txt or /tmp/tb-workspace/trials/25a700a12d924ffd9ccea4ab711f24b2/verifier/reward.json"
+        },
+        "gpt2-codegolf": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/1a1563105abb48dea20eb965a4c3f3a3/verifier/reward.txt or /tmp/tb-workspace/trials/1a1563105abb48dea20eb965a4c3f3a3/verifier/reward.json"
+        },
+        "headless-terminal": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/736dbbf35361488b9cef0388e0490f59/verifier/reward.txt or /tmp/tb-workspace/trials/736dbbf35361488b9cef0388e0490f59/verifier/reward.json"
+        },
+        "hf-model-inference": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/ddb90c9107e34016b688c7fa52df22eb/verifier/reward.txt or /tmp/tb-workspace/trials/ddb90c9107e34016b688c7fa52df22eb/verifier/reward.json"
+        },
+        "install-windows-3.11": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/c140ce544a03435aa8f9ef3a881640a0/verifier/reward.txt or /tmp/tb-workspace/trials/c140ce544a03435aa8f9ef3a881640a0/verifier/reward.json"
+        },
+        "kv-store-grpc": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/ac1400f0942341b2a0e7268c2ec3460c/verifier/reward.txt or /tmp/tb-workspace/trials/ac1400f0942341b2a0e7268c2ec3460c/verifier/reward.json"
+        },
+        "large-scale-text-editing": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/8c6c182d122c4aab8fd46e8d7511646c/verifier/reward.txt or /tmp/tb-workspace/trials/8c6c182d122c4aab8fd46e8d7511646c/verifier/reward.json"
+        },
+        "largest-eigenval": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/c8015d05d2374fb1b9f6edcc9be0bea4/verifier/reward.txt or /tmp/tb-workspace/trials/c8015d05d2374fb1b9f6edcc9be0bea4/verifier/reward.json"
+        },
+        "llm-inference-batching-scheduler": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/fb11f93aabe9475eb76b8ffeff7219ce/verifier/reward.txt or /tmp/tb-workspace/trials/fb11f93aabe9475eb76b8ffeff7219ce/verifier/reward.json"
+        },
+        "log-summary-date-ranges": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/1fba2aef9b9848ecb5f114f84683bc1f/verifier/reward.txt or /tmp/tb-workspace/trials/1fba2aef9b9848ecb5f114f84683bc1f/verifier/reward.json"
+        },
+        "mailman": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/812ee8f6393146a49619e373e06b0c7b/verifier/reward.txt or /tmp/tb-workspace/trials/812ee8f6393146a49619e373e06b0c7b/verifier/reward.json"
+        },
+        "make-doom-for-mips": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/59960a28092b41a3bf9219b282aa9421/verifier/reward.txt or /tmp/tb-workspace/trials/59960a28092b41a3bf9219b282aa9421/verifier/reward.json"
+        },
+        "make-mips-interpreter": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/0c81ce8e9d73498fbcf3e04bc5c33f4c/verifier/reward.txt or /tmp/tb-workspace/trials/0c81ce8e9d73498fbcf3e04bc5c33f4c/verifier/reward.json"
+        },
+        "mcmc-sampling-stan": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/dc0084f7770b4cf8800db30a2e4a06fb/verifier/reward.txt or /tmp/tb-workspace/trials/dc0084f7770b4cf8800db30a2e4a06fb/verifier/reward.json"
+        },
+        "merge-diff-arc-agi-task": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/b6c27f7d25bb4608a5d2ae68044fb8d6/verifier/reward.txt or /tmp/tb-workspace/trials/b6c27f7d25bb4608a5d2ae68044fb8d6/verifier/reward.json"
+        },
+        "model-extraction-relu-logits": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/b2cfa8f50dcd430eb6689650b422fa59/verifier/reward.txt or /tmp/tb-workspace/trials/b2cfa8f50dcd430eb6689650b422fa59/verifier/reward.json"
+        },
+        "modernize-scientific-stack": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/dcba4b1e7ae447009e2942a02f2a36b7/verifier/reward.txt or /tmp/tb-workspace/trials/dcba4b1e7ae447009e2942a02f2a36b7/verifier/reward.json"
+        },
+        "mteb-leaderboard": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/c5cb5442e98248d2ad4c5535add86680/verifier/reward.txt or /tmp/tb-workspace/trials/c5cb5442e98248d2ad4c5535add86680/verifier/reward.json"
+        },
+        "mteb-retrieve": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/d03c861494e24640a7cda180da431761/verifier/reward.txt or /tmp/tb-workspace/trials/d03c861494e24640a7cda180da431761/verifier/reward.json"
+        },
+        "multi-source-data-merger": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/5035724023364b1ca1bdd984bb77355d/verifier/reward.txt or /tmp/tb-workspace/trials/5035724023364b1ca1bdd984bb77355d/verifier/reward.json"
+        },
+        "nginx-request-logging": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/03ae556e71834232b76d9bb072643ba3/verifier/reward.txt or /tmp/tb-workspace/trials/03ae556e71834232b76d9bb072643ba3/verifier/reward.json"
+        },
+        "openssl-selfsigned-cert": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/dfea44ce399d45f3a9d5d8eaa309c5d3/verifier/reward.txt or /tmp/tb-workspace/trials/dfea44ce399d45f3a9d5d8eaa309c5d3/verifier/reward.json"
+        },
+        "overfull-hbox": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/0f534866addd4189aed164ec63383a15/verifier/reward.txt or /tmp/tb-workspace/trials/0f534866addd4189aed164ec63383a15/verifier/reward.json"
+        },
+        "password-recovery": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/76008ec0ff7347c3be3fe1630fa64a2e/verifier/reward.txt or /tmp/tb-workspace/trials/76008ec0ff7347c3be3fe1630fa64a2e/verifier/reward.json"
+        },
+        "path-tracing": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/1dc6db9a65ca4748ba6ddd81f9079eed/verifier/reward.txt or /tmp/tb-workspace/trials/1dc6db9a65ca4748ba6ddd81f9079eed/verifier/reward.json"
+        },
+        "path-tracing-reverse": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/2c1f19284a854dc6b11603bb9fb83289/verifier/reward.txt or /tmp/tb-workspace/trials/2c1f19284a854dc6b11603bb9fb83289/verifier/reward.json"
+        },
+        "polyglot-c-py": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/42fc9a8aeb774724affe83e541a35cd6/verifier/reward.txt or /tmp/tb-workspace/trials/42fc9a8aeb774724affe83e541a35cd6/verifier/reward.json"
+        },
+        "polyglot-rust-c": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/e49929def1f64e4ab3aa56c8bc822ff2/verifier/reward.txt or /tmp/tb-workspace/trials/e49929def1f64e4ab3aa56c8bc822ff2/verifier/reward.json"
+        },
+        "portfolio-optimization": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/3bf24ce742ce44deace72d5eefd8f1aa/verifier/reward.txt or /tmp/tb-workspace/trials/3bf24ce742ce44deace72d5eefd8f1aa/verifier/reward.json"
+        },
+        "protein-assembly": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/fa2ff10a47284e08811cec1a3c8639c7/verifier/reward.txt or /tmp/tb-workspace/trials/fa2ff10a47284e08811cec1a3c8639c7/verifier/reward.json"
+        },
+        "prove-plus-comm": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/ba0d837d8f9b4744803bac19cda1c6eb/verifier/reward.txt or /tmp/tb-workspace/trials/ba0d837d8f9b4744803bac19cda1c6eb/verifier/reward.json"
+        },
+        "pypi-server": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/c0245e0cbc1c4e11a3eab9738ba9df5b/verifier/reward.txt or /tmp/tb-workspace/trials/c0245e0cbc1c4e11a3eab9738ba9df5b/verifier/reward.json"
+        },
+        "pytorch-model-cli": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/99a5e8336ecc4959a559fec3049a0cc0/verifier/reward.txt or /tmp/tb-workspace/trials/99a5e8336ecc4959a559fec3049a0cc0/verifier/reward.json"
+        },
+        "pytorch-model-recovery": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/164c07ba38f54ea08ef1193f5c928aca/verifier/reward.txt or /tmp/tb-workspace/trials/164c07ba38f54ea08ef1193f5c928aca/verifier/reward.json"
+        },
+        "qemu-alpine-ssh": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/038a9f1e06f847ac8a4f345679cca693/verifier/reward.txt or /tmp/tb-workspace/trials/038a9f1e06f847ac8a4f345679cca693/verifier/reward.json"
+        },
+        "qemu-startup": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/b16c95f5e01740c49f60f0337a462da9/verifier/reward.txt or /tmp/tb-workspace/trials/b16c95f5e01740c49f60f0337a462da9/verifier/reward.json"
+        },
+        "query-optimize": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/22588ec8307b4de3a996cc13538d9fa1/verifier/reward.txt or /tmp/tb-workspace/trials/22588ec8307b4de3a996cc13538d9fa1/verifier/reward.json"
+        },
+        "raman-fitting": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/ff7661b82bb44dc0884a4c24d376625b/verifier/reward.txt or /tmp/tb-workspace/trials/ff7661b82bb44dc0884a4c24d376625b/verifier/reward.json"
+        },
+        "regex-chess": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/6425e81642864cf38ba64676184275c5/verifier/reward.txt or /tmp/tb-workspace/trials/6425e81642864cf38ba64676184275c5/verifier/reward.json"
+        },
+        "regex-log": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/34c953dddffe4efcb9ff186b14befbf5/verifier/reward.txt or /tmp/tb-workspace/trials/34c953dddffe4efcb9ff186b14befbf5/verifier/reward.json"
+        },
+        "reshard-c4-data": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/8d4f4bbc916b4835a2645a5cf032154e/verifier/reward.txt or /tmp/tb-workspace/trials/8d4f4bbc916b4835a2645a5cf032154e/verifier/reward.json"
+        },
+        "rstan-to-pystan": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/3947fddeb64246daabd0753dc00ad364/verifier/reward.txt or /tmp/tb-workspace/trials/3947fddeb64246daabd0753dc00ad364/verifier/reward.json"
+        },
+        "sam-cell-seg": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/84094b645d7e46eba7912dd3453dae05/verifier/reward.txt or /tmp/tb-workspace/trials/84094b645d7e46eba7912dd3453dae05/verifier/reward.json"
+        },
+        "sanitize-git-repo": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/37577fbc4e1c4376832ced7fbeadcc32/verifier/reward.txt or /tmp/tb-workspace/trials/37577fbc4e1c4376832ced7fbeadcc32/verifier/reward.json"
+        },
+        "schemelike-metacircular-eval": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/6056a2624bda4bdda87524d1db39cf58/verifier/reward.txt or /tmp/tb-workspace/trials/6056a2624bda4bdda87524d1db39cf58/verifier/reward.json"
+        },
+        "sparql-university": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/471060250ae7499e876d5734d29192a3/verifier/reward.txt or /tmp/tb-workspace/trials/471060250ae7499e876d5734d29192a3/verifier/reward.json"
+        },
+        "sqlite-db-truncate": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/b4846633d705431a9607b45986bf2b0e/verifier/reward.txt or /tmp/tb-workspace/trials/b4846633d705431a9607b45986bf2b0e/verifier/reward.json"
+        },
+        "sqlite-with-gcov": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/3bad17aa4fcc4de091a3efb1e9015812/verifier/reward.txt or /tmp/tb-workspace/trials/3bad17aa4fcc4de091a3efb1e9015812/verifier/reward.json"
+        },
+        "torch-pipeline-parallelism": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/98cba89e630c408e8a0d797c04a3bea6/verifier/reward.txt or /tmp/tb-workspace/trials/98cba89e630c408e8a0d797c04a3bea6/verifier/reward.json"
+        },
+        "torch-tensor-parallelism": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/f0964716818f4fed854b055e326ddc69/verifier/reward.txt or /tmp/tb-workspace/trials/f0964716818f4fed854b055e326ddc69/verifier/reward.json"
+        },
+        "train-fasttext": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/d8bfd34b3bc14e06945b9b1b00c2fa99/verifier/reward.txt or /tmp/tb-workspace/trials/d8bfd34b3bc14e06945b9b1b00c2fa99/verifier/reward.json"
+        },
+        "tune-mjcf": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/8395057876b14d7d8520182583efbb54/verifier/reward.txt or /tmp/tb-workspace/trials/8395057876b14d7d8520182583efbb54/verifier/reward.json"
+        },
+        "video-processing": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/0e828cdeba484de5bc64cbf33858c089/verifier/reward.txt or /tmp/tb-workspace/trials/0e828cdeba484de5bc64cbf33858c089/verifier/reward.json"
+        },
+        "vulnerable-secret": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/b59f317637bd454b84b0b82e602062a2/verifier/reward.txt or /tmp/tb-workspace/trials/b59f317637bd454b84b0b82e602062a2/verifier/reward.json"
+        },
+        "winning-avg-corewars": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/de1a9bf8c30f472bb20e207d0db44468/verifier/reward.txt or /tmp/tb-workspace/trials/de1a9bf8c30f472bb20e207d0db44468/verifier/reward.json"
+        },
+        "write-compressor": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/dcf3af49e3a343e2896806c5b4cd708a/verifier/reward.txt or /tmp/tb-workspace/trials/dcf3af49e3a343e2896806c5b4cd708a/verifier/reward.json"
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019d0530-5ba1-7fb2-a23b-63dbd0780541",
+    "agent": "019d0532-530a-7602-90e0-0acc41723ef7"
+  }
+}

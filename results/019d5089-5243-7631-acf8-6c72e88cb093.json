@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "score": 0,
+      "max_score": 10,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "bn-fit-modify": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "break-filter-js-from-html": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/70c4dc58237949db829dce5526c9ddbb/verifier/reward.txt or /tmp/tb-workspace/trials/70c4dc58237949db829dce5526c9ddbb/verifier/reward.json"
+        },
+        "build-cython-ext": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "build-pmars": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/2d3e937de3b34945b139948300dedfe2/verifier/reward.txt or /tmp/tb-workspace/trials/2d3e937de3b34945b139948300dedfe2/verifier/reward.json"
+        },
+        "build-pov-ray": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "caffe-cifar-10": {
+          "error": "Failed to add tests directory to environment."
+        },
+        "cancel-async-tasks": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/de8bb4c1dc38441bb64ab6bc83de443f/verifier/reward.txt or /tmp/tb-workspace/trials/de8bb4c1dc38441bb64ab6bc83de443f/verifier/reward.json"
+        },
+        "chess-best-move": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/9030f5661de74d51a1428b470153565a/verifier/reward.txt or /tmp/tb-workspace/trials/9030f5661de74d51a1428b470153565a/verifier/reward.json"
+        },
+        "circuit-fibsqrt": {
+          "error": "No reward file found at /tmp/tb-workspace/trials/7273466afb7e45aea565999503d04a15/verifier/reward.txt or /tmp/tb-workspace/trials/7273466afb7e45aea565999503d04a15/verifier/reward.json"
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019d0530-5ba1-7fb2-a23b-63dbd0780541",
+    "agent": "019d0532-530a-7602-90e0-0acc41723ef7"
+  }
+}

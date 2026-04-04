@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d0530-5ba1-7fb2-a23b-63dbd0780541",
+    "agent": "019d0532-530a-7602-90e0-0acc41723ef7"
+  },
+  "results": [
+    {
+      "score": 0,
+      "max_score": 3,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 0
+        },
+        "cancel-async-tasks": {
+          "reward": 0
+        },
+        "fix-git": {
+          "reward": 0
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 3,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-cython-ext": {
+          "reward": 0
+        },
+        "chess-best-move": {
+          "reward": 0
+        },
+        "prove-plus-comm": {
+          "reward": 0
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 2,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pmars": {
+          "reward": 0
+        },
+        "cobol-modernization": {
+          "reward": 0
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 2,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "reward": 0
+        },
+        "overfull-hbox": {
+          "reward": 0
+        }
+      }
+    }
+  ]
+}

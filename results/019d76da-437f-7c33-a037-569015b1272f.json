@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d76c2-3bb7-7652-b932-76ad868837b0",
+    "agent": "019d76c4-59a1-70f3-a147-643ce7091b40"
+  },
+  "results": [
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "cancel-async-tasks": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "constraints-scheduling": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "dna-insert": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "fix-code-vulnerability": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "headless-terminal": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "log-summary-date-ranges": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "modernize-scientific-stack": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "password-recovery": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "prove-plus-comm": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "raman-fitting": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "schemelike-metacircular-eval": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "tune-mjcf": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "chess-best-move": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "count-dataset-tokens": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "extract-elf": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "fix-git": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "hf-model-inference": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "mailman": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "mteb-leaderboard": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "path-tracing": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "pypi-server": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "regex-chess": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "sparql-university": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "video-processing": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "circuit-fibsqrt": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "crack-7z-hash": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "extract-moves-from-video": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "fix-ocaml-gc": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "install-windows-3.11": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "make-doom-for-mips": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "mteb-retrieve": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "path-tracing-reverse": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "pytorch-model-cli": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "regex-log": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "sqlite-db-truncate": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "vulnerable-secret": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-cython-ext": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "cobol-modernization": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "custom-memory-heap-crash": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "gcode-to-text": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "kv-store-grpc": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "make-mips-interpreter": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "multi-source-data-merger": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "polyglot-c-py": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "pytorch-model-recovery": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "reshard-c4-data": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "sqlite-with-gcov": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "winning-avg-corewars": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pmars": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "code-from-image": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "db-wal-recovery": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "git-leak-recovery": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "large-scale-text-editing": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "mcmc-sampling-stan": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "nginx-request-logging": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "polyglot-rust-c": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "qemu-alpine-ssh": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "rstan-to-pystan": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "torch-pipeline-parallelism": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "write-compressor": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pov-ray": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "compile-compcert": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "distribution-search": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "filter-js-from-html": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "git-multibranch": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "largest-eigenval": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "merge-diff-arc-agi-task": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "openssl-selfsigned-cert": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "portfolio-optimization": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "qemu-startup": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "sam-cell-seg": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "torch-tensor-parallelism": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "configure-git-webserver": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "dna-assembly": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "financial-document-processor": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "gpt2-codegolf": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "llm-inference-batching-scheduler": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "model-extraction-relu-logits": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "overfull-hbox": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "protein-assembly": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "query-optimize": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "sanitize-git-repo": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        },
+        "train-fasttext": {
+          "error": "DoodDockerEnvironment.exec() got an unexpected keyword argument 'user'"
+        }
+      }
+    }
+  ]
+}

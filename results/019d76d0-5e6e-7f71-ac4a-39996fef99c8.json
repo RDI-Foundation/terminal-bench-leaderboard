@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d76c2-3bb7-7652-b932-76ad868837b0",
+    "agent": "019d76c4-59a1-70f3-a147-643ce7091b40"
+  },
+  "results": [
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "cancel-async-tasks": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "constraints-scheduling": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "dna-insert": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "fix-code-vulnerability": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "headless-terminal": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "log-summary-date-ranges": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "modernize-scientific-stack": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "password-recovery": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "prove-plus-comm": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "raman-fitting": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "schemelike-metacircular-eval": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "tune-mjcf": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "chess-best-move": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "count-dataset-tokens": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "extract-elf": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "fix-git": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "hf-model-inference": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "mailman": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "mteb-leaderboard": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "path-tracing": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "pypi-server": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "regex-chess": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "sparql-university": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "video-processing": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "circuit-fibsqrt": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "crack-7z-hash": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "extract-moves-from-video": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "fix-ocaml-gc": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "install-windows-3.11": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "make-doom-for-mips": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "mteb-retrieve": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "path-tracing-reverse": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "pytorch-model-cli": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "regex-log": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "sqlite-db-truncate": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "vulnerable-secret": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-cython-ext": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "cobol-modernization": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "custom-memory-heap-crash": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "gcode-to-text": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "kv-store-grpc": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "make-mips-interpreter": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "multi-source-data-merger": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "polyglot-c-py": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "pytorch-model-recovery": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "reshard-c4-data": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "sqlite-with-gcov": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "winning-avg-corewars": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pmars": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "code-from-image": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "db-wal-recovery": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "git-leak-recovery": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "large-scale-text-editing": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "mcmc-sampling-stan": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "nginx-request-logging": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "polyglot-rust-c": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "qemu-alpine-ssh": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "rstan-to-pystan": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "torch-pipeline-parallelism": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "write-compressor": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pov-ray": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "compile-compcert": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "distribution-search": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "filter-js-from-html": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "git-multibranch": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "largest-eigenval": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "merge-diff-arc-agi-task": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "openssl-selfsigned-cert": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "portfolio-optimization": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "qemu-startup": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "sam-cell-seg": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "torch-tensor-parallelism": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "configure-git-webserver": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "dna-assembly": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "financial-document-processor": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "gpt2-codegolf": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "llm-inference-batching-scheduler": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "model-extraction-relu-logits": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "overfull-hbox": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "protein-assembly": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "query-optimize": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "sanitize-git-repo": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        },
+        "train-fasttext": {
+          "error": "'BatchDownloadResult' object is not subscriptable"
+        }
+      }
+    }
+  ]
+}

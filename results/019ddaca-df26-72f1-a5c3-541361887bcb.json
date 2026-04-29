@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019dd8de-40f9-74c3-ae33-91a250850feb"
+  },
+  "results": [
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "reward": 0.0
+        },
+        "cancel-async-tasks": {
+          "reward": 0.0
+        },
+        "constraints-scheduling": {
+          "reward": 0.0
+        },
+        "dna-insert": {
+          "reward": 0.0
+        },
+        "fix-code-vulnerability": {
+          "reward": 0.0
+        },
+        "headless-terminal": {
+          "reward": 0.0
+        },
+        "log-summary-date-ranges": {
+          "reward": 0.0
+        },
+        "modernize-scientific-stack": {
+          "reward": 0.0
+        },
+        "password-recovery": {
+          "reward": 0.0
+        },
+        "prove-plus-comm": {
+          "reward": 0.0
+        },
+        "raman-fitting": {
+          "reward": 0.0
+        },
+        "schemelike-metacircular-eval": {
+          "reward": 0.0
+        },
+        "tune-mjcf": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "reward": 0.0
+        },
+        "chess-best-move": {
+          "reward": 0.0
+        },
+        "count-dataset-tokens": {
+          "reward": 0.0
+        },
+        "extract-elf": {
+          "reward": 0.0
+        },
+        "fix-git": {
+          "reward": 0.0
+        },
+        "hf-model-inference": {
+          "reward": 0.0
+        },
+        "mailman": {
+          "reward": 0.0
+        },
+        "mteb-leaderboard": {
+          "reward": 0.0
+        },
+        "path-tracing": {
+          "reward": 0.0
+        },
+        "pypi-server": {
+          "reward": 0.0
+        },
+        "regex-chess": {
+          "reward": 0.0
+        },
+        "sparql-university": {
+          "reward": 0.0
+        },
+        "video-processing": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 0.0
+        },
+        "circuit-fibsqrt": {
+          "reward": 0.0
+        },
+        "crack-7z-hash": {
+          "reward": 0.0
+        },
+        "extract-moves-from-video": {
+          "reward": 0.0
+        },
+        "fix-ocaml-gc": {
+          "reward": 0.0
+        },
+        "install-windows-3.11": {
+          "reward": 0.0
+        },
+        "make-doom-for-mips": {
+          "reward": 0.0
+        },
+        "mteb-retrieve": {
+          "reward": 0.0
+        },
+        "path-tracing-reverse": {
+          "reward": 0.0
+        },
+        "pytorch-model-cli": {
+          "reward": 0.0
+        },
+        "regex-log": {
+          "reward": 0.0
+        },
+        "sqlite-db-truncate": {
+          "reward": 0.0
+        },
+        "vulnerable-secret": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-cython-ext": {
+          "error": "Docker compose command failed for environment terminal-bench-build-cython-ext. Command: docker compose --project-name 065018a018e3464aac8ff74d00ee3ed1 --project-directory /tmp/tb-workspace/repo/build-cython-ext/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/build-cython-ext:20251031 Pulling \n Image alexgshaw/build-cython-ext:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "cobol-modernization": {
+          "error": "Docker compose command failed for environment terminal-bench-cobol-modernization. Command: docker compose --project-name 93d694936b044678a869e2d63e771247 --project-directory /tmp/tb-workspace/repo/cobol-modernization/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/cobol-modernization:20251031 Pulling \n Image alexgshaw/cobol-modernization:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "custom-memory-heap-crash": {
+          "error": "Docker compose command failed for environment terminal-bench-custom-memory-heap-crash. Command: docker compose --project-name ff68c5f6bec848959a10dd4020019302 --project-directory /tmp/tb-workspace/repo/custom-memory-heap-crash/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/custom-memory-heap-crash:20251031 Pulling \n Image alexgshaw/custom-memory-heap-crash:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "Docker compose command failed for environment terminal-bench-feal-differential-cryptanalysis. Command: docker compose --project-name 7008aef86ed94e47aee86c2fcf487341 --project-directory /tmp/tb-workspace/repo/feal-differential-cryptanalysis/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/feal-differential-cryptanalysis:20251031 Pulling \n Image alexgshaw/feal-differential-cryptanalysis:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "gcode-to-text": {
+          "error": "Docker compose command failed for environment terminal-bench-gcode-to-text. Command: docker compose --project-name 0a46dd6986a440a4ad3d7c603d95386f --project-directory /tmp/tb-workspace/repo/gcode-to-text/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/gcode-to-text:20251031 Pulling \n Image alexgshaw/gcode-to-text:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "kv-store-grpc": {
+          "error": "Docker compose command failed for environment terminal-bench-kv-store-grpc. Command: docker compose --project-name 6aaca285396a4c6ca601f096623899e4 --project-directory /tmp/tb-workspace/repo/kv-store-grpc/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/kv-store-grpc:20251031 Pulling \n Image alexgshaw/kv-store-grpc:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "make-mips-interpreter": {
+          "error": "Docker compose command failed for environment terminal-bench-make-mips-interpreter. Command: docker compose --project-name 127be1c3a00e43c9b82cc4fc74e16aa7 --project-directory /tmp/tb-workspace/repo/make-mips-interpreter/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/make-mips-interpreter:20251031 Pulling \n Image alexgshaw/make-mips-interpreter:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "multi-source-data-merger": {
+          "error": "Docker compose command failed for environment terminal-bench-multi-source-data-merger. Command: docker compose --project-name 36f316ad4db9471aa35af6b634407e62 --project-directory /tmp/tb-workspace/repo/multi-source-data-merger/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/multi-source-data-merger:20251031 Pulling \n Image alexgshaw/multi-source-data-merger:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "polyglot-c-py": {
+          "error": "Docker compose command failed for environment terminal-bench-polyglot-c-py. Command: docker compose --project-name f64030dd6832415bb9fce236cbb510a9 --project-directory /tmp/tb-workspace/repo/polyglot-c-py/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/polyglot-c-py:20251031 Pulling \n Image alexgshaw/polyglot-c-py:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "pytorch-model-recovery": {
+          "error": "Docker compose command failed for environment terminal-bench-pytorch-model-recovery. Command: docker compose --project-name dbdb41c5f29b4b7ca033c27ff73857f3 --project-directory /tmp/tb-workspace/repo/pytorch-model-recovery/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/pytorch-model-recovery:20251031 Pulling \n Image alexgshaw/pytorch-model-recovery:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "reshard-c4-data": {
+          "error": "Docker compose command failed for environment terminal-bench-reshard-c4-data. Command: docker compose --project-name 96da9a67e96e4eb6b8585abed7c637f0 --project-directory /tmp/tb-workspace/repo/reshard-c4-data/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/reshard-c4-data:20251031 Pulling \n Image alexgshaw/reshard-c4-data:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "sqlite-with-gcov": {
+          "error": "Docker compose command failed for environment terminal-bench-sqlite-with-gcov. Command: docker compose --project-name 03aa0e2a69fc4a3a8b78431c1a06347a --project-directory /tmp/tb-workspace/repo/sqlite-with-gcov/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/sqlite-with-gcov:20251031 Pulling \n Image alexgshaw/sqlite-with-gcov:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        },
+        "winning-avg-corewars": {
+          "error": "Docker compose command failed for environment terminal-bench-winning-avg-corewars. Command: docker compose --project-name 2cff8613f69642c8a310a336a493b90f --project-directory /tmp/tb-workspace/repo/winning-avg-corewars/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/winning-avg-corewars:20251031 Pulling \n Image alexgshaw/winning-avg-corewars:20251031 Error toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\nError response from daemon: toomanyrequests: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit\n. Stderr: None. "
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pmars": {
+          "reward": 0.0
+        },
+        "code-from-image": {
+          "reward": 0.0
+        },
+        "db-wal-recovery": {
+          "reward": 0.0
+        },
+        "feal-linear-cryptanalysis": {
+          "reward": 0.0
+        },
+        "git-leak-recovery": {
+          "reward": 0.0
+        },
+        "large-scale-text-editing": {
+          "reward": 0.0
+        },
+        "mcmc-sampling-stan": {
+          "reward": 0.0
+        },
+        "nginx-request-logging": {
+          "reward": 0.0
+        },
+        "polyglot-rust-c": {
+          "reward": 0.0
+        },
+        "qemu-alpine-ssh": {
+          "reward": 0.0
+        },
+        "rstan-to-pystan": {
+          "reward": 0.0
+        },
+        "torch-pipeline-parallelism": {
+          "reward": 0.0
+        },
+        "write-compressor": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pov-ray": {
+          "reward": 0.0
+        },
+        "compile-compcert": {
+          "reward": 0.0
+        },
+        "distribution-search": {
+          "reward": 0.0
+        },
+        "filter-js-from-html": {
+          "reward": 0.0
+        },
+        "git-multibranch": {
+          "reward": 0.0
+        },
+        "largest-eigenval": {
+          "reward": 0.0
+        },
+        "merge-diff-arc-agi-task": {
+          "reward": 0.0
+        },
+        "openssl-selfsigned-cert": {
+          "reward": 0.0
+        },
+        "portfolio-optimization": {
+          "reward": 0.0
+        },
+        "qemu-startup": {
+          "reward": 0.0
+        },
+        "sam-cell-seg": {
+          "reward": 0.0
+        },
+        "torch-tensor-parallelism": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "reward": 0.0
+        },
+        "configure-git-webserver": {
+          "reward": 0.0
+        },
+        "dna-assembly": {
+          "reward": 0.0
+        },
+        "financial-document-processor": {
+          "reward": 0.0
+        },
+        "gpt2-codegolf": {
+          "reward": 0.0
+        },
+        "llm-inference-batching-scheduler": {
+          "reward": 0.0
+        },
+        "model-extraction-relu-logits": {
+          "reward": 0.0
+        },
+        "overfull-hbox": {
+          "reward": 0.0
+        },
+        "protein-assembly": {
+          "reward": 0.0
+        },
+        "query-optimize": {
+          "reward": 0.0
+        },
+        "sanitize-git-repo": {
+          "reward": 0.0
+        },
+        "train-fasttext": {
+          "reward": 0.0
+        }
+      }
+    }
+  ]
+}

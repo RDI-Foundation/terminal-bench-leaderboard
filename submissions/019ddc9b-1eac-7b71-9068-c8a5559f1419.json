@@ -1,0 +1,69 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "purple_agent_openrouter_api_key": {
+        "type": "string",
+        "title": "OpenRouter API Key",
+        "secret": true
+      }
+    },
+    "required": [
+      "purple_agent_openrouter_api_key"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.3/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "tasks": "all"
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "purple_agent"
+        },
+        "callback_urls": {}
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/terminal-bench-green/refs/heads/main/amber-manifest.json5",
+      "config": {}
+    },
+    "purple_agent": {
+      "manifest": "https://raw.githubusercontent.com/soutrikmachine/purple-terminal-agent/refs/heads/main/amber-manifest.json5",
+      "config": {
+        "openrouter_api_key": "${config.purple_agent_openrouter_api_key}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#purple_agent.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+      "purple_agent": "019dd8de-40f9-74c3-ae33-91a250850feb"
+    }
+  },
+  "experimental_features": [
+    "docker"
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019dd8de-40f9-74c3-ae33-91a250850feb"
+  },
+  "results": [
+    {
+      "score": 6.0,
+      "max_score": 13,
+      "pass_rate": 46.15384615384615,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "cancel-async-tasks": {
+          "reward": 1.0
+        },
+        "constraints-scheduling": {
+          "reward": 0.0
+        },
+        "dna-insert": {
+          "reward": 0.0
+        },
+        "fix-code-vulnerability": {
+          "reward": 1.0
+        },
+        "headless-terminal": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "log-summary-date-ranges": {
+          "reward": 1.0
+        },
+        "modernize-scientific-stack": {
+          "reward": 1.0
+        },
+        "password-recovery": {
+          "reward": 1.0
+        },
+        "prove-plus-comm": {
+          "reward": 1.0
+        },
+        "raman-fitting": {
+          "reward": 0.0
+        },
+        "schemelike-metacircular-eval": {
+          "reward": 0.0
+        },
+        "tune-mjcf": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    },
+    {
+      "score": 4.0,
+      "max_score": 13,
+      "pass_rate": 30.76923076923077,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "reward": 1.0
+        },
+        "chess-best-move": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "count-dataset-tokens": {
+          "reward": 0.0
+        },
+        "extract-elf": {
+          "reward": 1.0
+        },
+        "fix-git": {
+          "reward": 1.0
+        },
+        "hf-model-inference": {
+          "reward": 1.0
+        },
+        "mailman": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "mteb-leaderboard": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "path-tracing": {
+          "reward": 0.0
+        },
+        "pypi-server": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "regex-chess": {
+          "reward": 0.0
+        },
+        "sparql-university": {
+          "reward": 0.0
+        },
+        "video-processing": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 2.0,
+      "max_score": 13,
+      "pass_rate": 15.384615384615385,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 0.0
+        },
+        "circuit-fibsqrt": {
+          "reward": 0.0
+        },
+        "crack-7z-hash": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "extract-moves-from-video": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "fix-ocaml-gc": {
+          "reward": 0.0
+        },
+        "install-windows-3.11": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "make-doom-for-mips": {
+          "reward": 0.0
+        },
+        "mteb-retrieve": {
+          "reward": 0.0
+        },
+        "path-tracing-reverse": {
+          "reward": 0.0
+        },
+        "pytorch-model-cli": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "regex-log": {
+          "reward": 1.0
+        },
+        "sqlite-db-truncate": {
+          "reward": 1.0
+        },
+        "vulnerable-secret": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    },
+    {
+      "score": 2.0,
+      "max_score": 13,
+      "pass_rate": 15.384615384615385,
+      "task_rewards": {
+        "build-cython-ext": {
+          "reward": 0.0
+        },
+        "cobol-modernization": {
+          "reward": 0.0
+        },
+        "custom-memory-heap-crash": {
+          "reward": 0.0
+        },
+        "feal-differential-cryptanalysis": {
+          "reward": 0.0
+        },
+        "gcode-to-text": {
+          "reward": 0.0
+        },
+        "kv-store-grpc": {
+          "reward": 0.0
+        },
+        "make-mips-interpreter": {
+          "reward": 0.0
+        },
+        "multi-source-data-merger": {
+          "reward": 1.0
+        },
+        "polyglot-c-py": {
+          "reward": 0.0
+        },
+        "pytorch-model-recovery": {
+          "reward": 1.0
+        },
+        "reshard-c4-data": {
+          "reward": 0.0
+        },
+        "sqlite-with-gcov": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "winning-avg-corewars": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 3.0,
+      "max_score": 13,
+      "pass_rate": 23.076923076923077,
+      "task_rewards": {
+        "build-pmars": {
+          "reward": 1.0
+        },
+        "code-from-image": {
+          "reward": 1.0
+        },
+        "db-wal-recovery": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "feal-linear-cryptanalysis": {
+          "reward": 0.0
+        },
+        "git-leak-recovery": {
+          "reward": 1.0
+        },
+        "large-scale-text-editing": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "mcmc-sampling-stan": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "nginx-request-logging": {
+          "reward": 0.0
+        },
+        "polyglot-rust-c": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "qemu-alpine-ssh": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "rstan-to-pystan": {
+          "reward": 0.0
+        },
+        "torch-pipeline-parallelism": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "write-compressor": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 3.0,
+      "max_score": 12,
+      "pass_rate": 25.0,
+      "task_rewards": {
+        "build-pov-ray": {
+          "reward": 0.0
+        },
+        "compile-compcert": {
+          "reward": 0.0
+        },
+        "distribution-search": {
+          "reward": 1.0
+        },
+        "filter-js-from-html": {
+          "reward": 0.0
+        },
+        "git-multibranch": {
+          "reward": 0.0
+        },
+        "largest-eigenval": {
+          "reward": 0.0
+        },
+        "merge-diff-arc-agi-task": {
+          "reward": 0.0
+        },
+        "openssl-selfsigned-cert": {
+          "reward": 1.0
+        },
+        "portfolio-optimization": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "qemu-startup": {
+          "reward": 1.0
+        },
+        "sam-cell-seg": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "torch-tensor-parallelism": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    },
+    {
+      "score": 1.0,
+      "max_score": 12,
+      "pass_rate": 8.333333333333332,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "reward": 0.0
+        },
+        "configure-git-webserver": {
+          "reward": 1.0
+        },
+        "dna-assembly": {
+          "reward": 0.0
+        },
+        "financial-document-processor": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "gpt2-codegolf": {
+          "reward": 0.0
+        },
+        "llm-inference-batching-scheduler": {
+          "reward": 0.0
+        },
+        "model-extraction-relu-logits": {
+          "reward": 0.0
+        },
+        "overfull-hbox": {
+          "reward": 0.0
+        },
+        "protein-assembly": {
+          "reward": 0.0
+        },
+        "query-optimize": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "sanitize-git-repo": {
+          "reward": 0.0
+        },
+        "train-fasttext": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    }
+  ]
+}

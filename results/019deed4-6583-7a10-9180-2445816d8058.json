@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019dee73-fd03-7171-9576-956291e16681"
+  },
+  "results": [
+    {
+      "score": 7.0,
+      "max_score": 13,
+      "pass_rate": 53.84615384615385,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "cancel-async-tasks": {
+          "reward": 0.0
+        },
+        "constraints-scheduling": {
+          "reward": 1.0
+        },
+        "dna-insert": {
+          "reward": 0.0
+        },
+        "fix-code-vulnerability": {
+          "reward": 1.0
+        },
+        "headless-terminal": {
+          "reward": 0.0
+        },
+        "log-summary-date-ranges": {
+          "reward": 1.0
+        },
+        "modernize-scientific-stack": {
+          "reward": 1.0
+        },
+        "password-recovery": {
+          "reward": 1.0
+        },
+        "prove-plus-comm": {
+          "reward": 1.0
+        },
+        "raman-fitting": {
+          "reward": 1.0
+        },
+        "schemelike-metacircular-eval": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "tune-mjcf": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    },
+    {
+      "score": 6.0,
+      "max_score": 13,
+      "pass_rate": 46.15384615384615,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "reward": 1.0
+        },
+        "chess-best-move": {
+          "reward": 0.0
+        },
+        "count-dataset-tokens": {
+          "reward": 1.0
+        },
+        "extract-elf": {
+          "reward": 0.0
+        },
+        "fix-git": {
+          "reward": 1.0
+        },
+        "hf-model-inference": {
+          "reward": 1.0
+        },
+        "mailman": {
+          "reward": 0.0
+        },
+        "mteb-leaderboard": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "path-tracing": {
+          "reward": 1.0
+        },
+        "pypi-server": {
+          "reward": 1.0
+        },
+        "regex-chess": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "sparql-university": {
+          "error": "Docker compose command failed for environment terminal-bench-sparql-university. Command: docker compose --project-name ff8f56896b16424e828159874d42a77c --project-directory /tmp/tb-workspace/repo/sparql-university/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/sparql-university:20251031 Pulling \n Image alexgshaw/sparql-university:20251031 Error Head \"https://registry-1.docker.io/v2/alexgshaw/sparql-university/manifests/20251031\": Get \"https://auth.docker.io/token?scope=repository%3Aalexgshaw%2Fsparql-university%3Apull&service=registry.docker.io\": context deadline exceeded\nError response from daemon: Head \"https://registry-1.docker.io/v2/alexgshaw/sparql-university/manifests/20251031\": Get \"https://auth.docker.io/token?scope=repository%3Aalexgshaw%2Fsparql-university%3Apull&service=registry.docker.io\": context deadline exceeded\n. Stderr: None. "
+        },
+        "video-processing": {
+          "error": "Docker compose command failed for environment terminal-bench-video-processing. Command: docker compose --project-name 242dd48ec5b54befbf54ed61f5cb0375 --project-directory /tmp/tb-workspace/repo/video-processing/environment -f /home/agent/src/dood_compose_base.yaml -f /home/agent/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/video-processing:20251031 Pulling \n Image alexgshaw/video-processing:20251031 Error Head \"https://registry-1.docker.io/v2/alexgshaw/video-processing/manifests/20251031\": Get \"https://auth.docker.io/token?scope=repository%3Aalexgshaw%2Fvideo-processing%3Apull&service=registry.docker.io\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\nError response from daemon: Head \"https://registry-1.docker.io/v2/alexgshaw/video-processing/manifests/20251031\": Get \"https://auth.docker.io/token?scope=repository%3Aalexgshaw%2Fvideo-processing%3Apull&service=registry.docker.io\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)\n. Stderr: None. "
+        }
+      }
+    },
+    {
+      "score": 6.0,
+      "max_score": 13,
+      "pass_rate": 46.15384615384615,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 1.0
+        },
+        "circuit-fibsqrt": {
+          "reward": 1.0
+        },
+        "crack-7z-hash": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "extract-moves-from-video": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "fix-ocaml-gc": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "install-windows-3.11": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "make-doom-for-mips": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "mteb-retrieve": {
+          "reward": 0.0
+        },
+        "path-tracing-reverse": {
+          "reward": 1.0
+        },
+        "pytorch-model-cli": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "regex-log": {
+          "reward": 1.0
+        },
+        "sqlite-db-truncate": {
+          "reward": 1.0
+        },
+        "vulnerable-secret": {
+          "reward": 1.0
+        }
+      }
+    },
+    {
+      "score": 9.0,
+      "max_score": 13,
+      "pass_rate": 69.23076923076923,
+      "task_rewards": {
+        "build-cython-ext": {
+          "reward": 1.0
+        },
+        "cobol-modernization": {
+          "reward": 1.0
+        },
+        "custom-memory-heap-crash": {
+          "reward": 1.0
+        },
+        "feal-differential-cryptanalysis": {
+          "reward": 1.0
+        },
+        "gcode-to-text": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "kv-store-grpc": {
+          "reward": 1.0
+        },
+        "make-mips-interpreter": {
+          "reward": 0.0
+        },
+        "multi-source-data-merger": {
+          "reward": 1.0
+        },
+        "polyglot-c-py": {
+          "reward": 0.0
+        },
+        "pytorch-model-recovery": {
+          "reward": 1.0
+        },
+        "reshard-c4-data": {
+          "reward": 1.0
+        },
+        "sqlite-with-gcov": {
+          "reward": 1.0
+        },
+        "winning-avg-corewars": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 7.0,
+      "max_score": 13,
+      "pass_rate": 53.84615384615385,
+      "task_rewards": {
+        "build-pmars": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "code-from-image": {
+          "reward": 1.0
+        },
+        "db-wal-recovery": {
+          "reward": 1.0
+        },
+        "feal-linear-cryptanalysis": {
+          "reward": 1.0
+        },
+        "git-leak-recovery": {
+          "reward": 1.0
+        },
+        "large-scale-text-editing": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "mcmc-sampling-stan": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "nginx-request-logging": {
+          "reward": 1.0
+        },
+        "polyglot-rust-c": {
+          "reward": 0.0
+        },
+        "qemu-alpine-ssh": {
+          "reward": 1.0
+        },
+        "rstan-to-pystan": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "torch-pipeline-parallelism": {
+          "reward": 0.0
+        },
+        "write-compressor": {
+          "reward": 1.0
+        }
+      }
+    },
+    {
+      "score": 5.0,
+      "max_score": 12,
+      "pass_rate": 41.66666666666667,
+      "task_rewards": {
+        "build-pov-ray": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "compile-compcert": {
+          "error": "Command timed out after 300 seconds"
+        },
+        "distribution-search": {
+          "reward": 1.0
+        },
+        "filter-js-from-html": {
+          "reward": 0.0
+        },
+        "git-multibranch": {
+          "reward": 1.0
+        },
+        "largest-eigenval": {
+          "reward": 1.0
+        },
+        "merge-diff-arc-agi-task": {
+          "reward": 1.0
+        },
+        "openssl-selfsigned-cert": {
+          "reward": 1.0
+        },
+        "portfolio-optimization": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "qemu-startup": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "sam-cell-seg": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "torch-tensor-parallelism": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 2.0,
+      "max_score": 12,
+      "pass_rate": 16.666666666666664,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "configure-git-webserver": {
+          "reward": 0.0
+        },
+        "dna-assembly": {
+          "reward": 0.0
+        },
+        "financial-document-processor": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "gpt2-codegolf": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "llm-inference-batching-scheduler": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "model-extraction-relu-logits": {
+          "reward": 0.0
+        },
+        "overfull-hbox": {
+          "reward": 1.0
+        },
+        "protein-assembly": {
+          "reward": 0.0
+        },
+        "query-optimize": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "sanitize-git-repo": {
+          "reward": 1.0
+        },
+        "train-fasttext": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    }
+  ]
+}

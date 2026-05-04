@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019df048-b48c-7a32-83b3-26af93dc93b6"
+  },
+  "results": [
+    {
+      "score": 0,
+      "max_score": 1,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "fix-git": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': '{\"kind\": \"exec_request\", \"command\": \"pwd && ls -la\", \"timeout\": 15}', 'context_id': '0fbd279b-0982-4aea-bf85-231c9df522f4', 'status': 'working'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 1,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "configure-git-webserver": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': '{\"kind\": \"exec_request\", \"command\": \"pwd && ls -la\", \"timeout\": 15}', 'context_id': '2057b324-d6c4-439e-9d39-455270d4f241', 'status': 'working'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 1,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "filter-js-from-html": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': '{\"kind\": \"exec_request\", \"command\": \"pwd && ls -la\", \"timeout\": 15}', 'context_id': '5b53b6c6-2b75-4718-b1cf-f03eccc2289c', 'status': 'working'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019df048-b48c-7a32-83b3-26af93dc93b6"
+  },
+  "results": [
+    {
+      "score": 1.0,
+      "max_score": 1,
+      "pass_rate": 100.0,
+      "task_rewards": {
+        "fix-git": {
+          "reward": 1.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 1,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "configure-git-webserver": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 1,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "filter-js-from-html": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    }
+  ]
+}

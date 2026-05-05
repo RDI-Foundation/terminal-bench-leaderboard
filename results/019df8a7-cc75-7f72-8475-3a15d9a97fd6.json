@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019dd8de-40f9-74c3-ae33-91a250850feb"
+  },
+  "results": [
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "cancel-async-tasks": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "constraints-scheduling": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "dna-insert": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "fix-code-vulnerability": {
+          "reward": 0.0
+        },
+        "headless-terminal": {
+          "reward": 0.0
+        },
+        "log-summary-date-ranges": {
+          "reward": 0.0
+        },
+        "modernize-scientific-stack": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "password-recovery": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "prove-plus-comm": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "raman-fitting": {
+          "reward": 0.0
+        },
+        "schemelike-metacircular-eval": {
+          "reward": 0.0
+        },
+        "tune-mjcf": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "error": "Command timed out after 300 seconds"
+        },
+        "chess-best-move": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "count-dataset-tokens": {
+          "error": "Command timed out after 300 seconds"
+        },
+        "extract-elf": {
+          "reward": 0.0
+        },
+        "fix-git": {
+          "reward": 0.0
+        },
+        "hf-model-inference": {
+          "reward": 0.0
+        },
+        "mailman": {
+          "reward": 0.0
+        },
+        "mteb-leaderboard": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "path-tracing": {
+          "reward": 0.0
+        },
+        "pypi-server": {
+          "reward": 0.0
+        },
+        "regex-chess": {
+          "reward": 0.0
+        },
+        "sparql-university": {
+          "reward": 0.0
+        },
+        "video-processing": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 0.0
+        },
+        "circuit-fibsqrt": {
+          "reward": 0.0
+        },
+        "crack-7z-hash": {
+          "reward": 0.0
+        },
+        "extract-moves-from-video": {
+          "reward": 0.0
+        },
+        "fix-ocaml-gc": {
+          "reward": 0.0
+        },
+        "install-windows-3.11": {
+          "reward": 0.0
+        },
+        "make-doom-for-mips": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "mteb-retrieve": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "path-tracing-reverse": {
+          "reward": 0.0
+        },
+        "pytorch-model-cli": {
+          "reward": 0.0
+        },
+        "regex-log": {
+          "reward": 0.0
+        },
+        "sqlite-db-truncate": {
+          "reward": 0.0
+        },
+        "vulnerable-secret": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-cython-ext": {
+          "reward": 0.0
+        },
+        "cobol-modernization": {
+          "reward": 0.0
+        },
+        "custom-memory-heap-crash": {
+          "reward": 0.0
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "Command timed out after 300 seconds"
+        },
+        "gcode-to-text": {
+          "reward": 0.0
+        },
+        "kv-store-grpc": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "make-mips-interpreter": {
+          "reward": 0.0
+        },
+        "multi-source-data-merger": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "polyglot-c-py": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "pytorch-model-recovery": {
+          "reward": 0.0
+        },
+        "reshard-c4-data": {
+          "reward": 0.0
+        },
+        "sqlite-with-gcov": {
+          "reward": 0.0
+        },
+        "winning-avg-corewars": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pmars": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "code-from-image": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "db-wal-recovery": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "feal-linear-cryptanalysis": {
+          "reward": 0.0
+        },
+        "git-leak-recovery": {
+          "reward": 0.0
+        },
+        "large-scale-text-editing": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "mcmc-sampling-stan": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "nginx-request-logging": {
+          "reward": 0.0
+        },
+        "polyglot-rust-c": {
+          "reward": 0.0
+        },
+        "qemu-alpine-ssh": {
+          "reward": 0.0
+        },
+        "rstan-to-pystan": {
+          "reward": 0.0
+        },
+        "torch-pipeline-parallelism": {
+          "reward": 0.0
+        },
+        "write-compressor": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pov-ray": {
+          "reward": 0.0
+        },
+        "compile-compcert": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "distribution-search": {
+          "reward": 0.0
+        },
+        "filter-js-from-html": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "git-multibranch": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "largest-eigenval": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "merge-diff-arc-agi-task": {
+          "reward": 0.0
+        },
+        "openssl-selfsigned-cert": {
+          "reward": 0.0
+        },
+        "portfolio-optimization": {
+          "reward": 0.0
+        },
+        "qemu-startup": {
+          "reward": 0.0
+        },
+        "sam-cell-seg": {
+          "reward": 0.0
+        },
+        "torch-tensor-parallelism": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "configure-git-webserver": {
+          "reward": 0.0
+        },
+        "dna-assembly": {
+          "error": "HTTP Error 504: Server error '504 Gateway Timeout' for url 'http://127.0.0.1:8080/agent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+        },
+        "financial-document-processor": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "gpt2-codegolf": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "llm-inference-batching-scheduler": {
+          "reward": 0.0
+        },
+        "model-extraction-relu-logits": {
+          "error": "Timeout Error: Client Request timed out"
+        },
+        "overfull-hbox": {
+          "error": "Command timed out after 300 seconds"
+        },
+        "protein-assembly": {
+          "reward": 0.0
+        },
+        "query-optimize": {
+          "reward": 0.0
+        },
+        "sanitize-git-repo": {
+          "reward": 0.0
+        },
+        "train-fasttext": {
+          "reward": 0.0
+        }
+      }
+    }
+  ]
+}

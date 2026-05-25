@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019e5cac-4e2a-7740-8e49-c234f149fe42"
+  },
+  "results": [
+    {
+      "score": 7.0,
+      "max_score": 13,
+      "pass_rate": 53.84615384615385,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "cancel-async-tasks": {
+          "reward": 1.0
+        },
+        "constraints-scheduling": {
+          "reward": 1.0
+        },
+        "dna-insert": {
+          "reward": 0.0
+        },
+        "fix-code-vulnerability": {
+          "reward": 1.0
+        },
+        "headless-terminal": {
+          "reward": 1.0
+        },
+        "log-summary-date-ranges": {
+          "reward": 1.0
+        },
+        "modernize-scientific-stack": {
+          "reward": 1.0
+        },
+        "password-recovery": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "prove-plus-comm": {
+          "reward": 1.0
+        },
+        "raman-fitting": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "schemelike-metacircular-eval": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Expecting value: line 191 column 1 (char 1045)', 'context_id': '734ea8db-dd4d-4b3a-a083-4c7678118368', 'status': 'failed'}"
+        },
+        "tune-mjcf": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    },
+    {
+      "score": 5.0,
+      "max_score": 13,
+      "pass_rate": 38.46153846153847,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "reward": 1.0
+        },
+        "chess-best-move": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "count-dataset-tokens": {
+          "reward": 0.0
+        },
+        "extract-elf": {
+          "reward": 1.0
+        },
+        "fix-git": {
+          "reward": 1.0
+        },
+        "hf-model-inference": {
+          "reward": 1.0
+        },
+        "mailman": {
+          "reward": 0.0
+        },
+        "mteb-leaderboard": {
+          "reward": 0.0
+        },
+        "path-tracing": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "pypi-server": {
+          "reward": 1.0
+        },
+        "regex-chess": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "sparql-university": {
+          "reward": 0.0
+        },
+        "video-processing": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 2.0,
+      "max_score": 13,
+      "pass_rate": 15.384615384615385,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 0.0
+        },
+        "circuit-fibsqrt": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "crack-7z-hash": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "extract-moves-from-video": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "fix-ocaml-gc": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "install-windows-3.11": {
+          "reward": 0.0
+        },
+        "make-doom-for-mips": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "mteb-retrieve": {
+          "reward": 0.0
+        },
+        "path-tracing-reverse": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 400 - {\\'error\\': {\\'message\\': \"This endpoint\\'s maximum context length is 204800 tokens. However, you requested about 3989139 tokens (3988827 of text input, 312 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.\", \\'code\\': 400, \\'metadata\\': {\\'provider_name\\': None}}, \\'user_id\\': \\'user_2vNnq0TlPyFS0VQAV4UPwK7xvKY\\'}', 'context_id': '768c57a5-a6ec-4702-bc68-6149b47d8767', 'status': 'failed'}"
+        },
+        "pytorch-model-cli": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "regex-log": {
+          "reward": 0.0
+        },
+        "sqlite-db-truncate": {
+          "reward": 1.0
+        },
+        "vulnerable-secret": {
+          "reward": 1.0
+        }
+      }
+    },
+    {
+      "score": 5.0,
+      "max_score": 13,
+      "pass_rate": 38.46153846153847,
+      "task_rewards": {
+        "build-cython-ext": {
+          "reward": 1.0
+        },
+        "cobol-modernization": {
+          "reward": 1.0
+        },
+        "custom-memory-heap-crash": {
+          "reward": 1.0
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "gcode-to-text": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "kv-store-grpc": {
+          "reward": 1.0
+        },
+        "make-mips-interpreter": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "multi-source-data-merger": {
+          "reward": 1.0
+        },
+        "polyglot-c-py": {
+          "reward": 0.0
+        },
+        "pytorch-model-recovery": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "reshard-c4-data": {
+          "reward": 0.0
+        },
+        "sqlite-with-gcov": {
+          "reward": 0.0
+        },
+        "winning-avg-corewars": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 4.0,
+      "max_score": 13,
+      "pass_rate": 30.76923076923077,
+      "task_rewards": {
+        "build-pmars": {
+          "reward": 1.0
+        },
+        "code-from-image": {
+          "reward": 1.0
+        },
+        "db-wal-recovery": {
+          "reward": 0.0
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "git-leak-recovery": {
+          "reward": 1.0
+        },
+        "large-scale-text-editing": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "mcmc-sampling-stan": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "nginx-request-logging": {
+          "reward": 1.0
+        },
+        "polyglot-rust-c": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "qemu-alpine-ssh": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "rstan-to-pystan": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "torch-pipeline-parallelism": {
+          "reward": 0.0
+        },
+        "write-compressor": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    },
+    {
+      "score": 3.0,
+      "max_score": 12,
+      "pass_rate": 25.0,
+      "task_rewards": {
+        "build-pov-ray": {
+          "reward": 1.0
+        },
+        "compile-compcert": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "distribution-search": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "filter-js-from-html": {
+          "reward": 0.0
+        },
+        "git-multibranch": {
+          "reward": 0.0
+        },
+        "largest-eigenval": {
+          "reward": 1.0
+        },
+        "merge-diff-arc-agi-task": {
+          "reward": 1.0
+        },
+        "openssl-selfsigned-cert": {
+          "reward": 0.0
+        },
+        "portfolio-optimization": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "qemu-startup": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "sam-cell-seg": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "torch-tensor-parallelism": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 4.0,
+      "max_score": 12,
+      "pass_rate": 33.33333333333333,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "configure-git-webserver": {
+          "reward": 1.0
+        },
+        "dna-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Expecting value: line 899 column 1 (char 4939)', 'context_id': 'db2c7013-f0fe-42b3-ba92-d5675967d095', 'status': 'failed'}"
+        },
+        "financial-document-processor": {
+          "reward": 1.0
+        },
+        "gpt2-codegolf": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "llm-inference-batching-scheduler": {
+          "reward": 1.0
+        },
+        "model-extraction-relu-logits": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "overfull-hbox": {
+          "reward": 0.0
+        },
+        "protein-assembly": {
+          "reward": 0.0
+        },
+        "query-optimize": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "sanitize-git-repo": {
+          "reward": 1.0
+        },
+        "train-fasttext": {
+          "error": "Command timed out after 30 seconds"
+        }
+      }
+    }
+  ]
+}

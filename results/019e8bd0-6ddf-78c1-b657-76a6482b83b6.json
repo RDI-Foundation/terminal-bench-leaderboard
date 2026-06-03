@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019e5cac-4e2a-7740-8e49-c234f149fe42"
+  },
+  "results": [
+    {
+      "score": 2.0,
+      "max_score": 13,
+      "pass_rate": 15.384615384615385,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "cancel-async-tasks": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'ab72728b-fbd4-4a74-917c-b3398085b4e1', 'status': 'failed'}"
+        },
+        "constraints-scheduling": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '180540b4-23c0-4610-b242-2c90022d24db', 'status': 'failed'}"
+        },
+        "dna-insert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'f9192147-6ecf-4d7d-8bb7-1c3bb0d65f4f', 'status': 'failed'}"
+        },
+        "fix-code-vulnerability": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '63334d69-5846-405f-bccc-b00d85e6b8cc', 'status': 'failed'}"
+        },
+        "headless-terminal": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '1de1b78d-2da1-46a1-b0e6-d7c9ce4ed71c', 'status': 'failed'}"
+        },
+        "log-summary-date-ranges": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '7a0027f2-1053-422c-abee-d957e72fe217', 'status': 'failed'}"
+        },
+        "modernize-scientific-stack": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '62540e81-8c2e-45f1-973b-a6060d3b1e67', 'status': 'failed'}"
+        },
+        "password-recovery": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "prove-plus-comm": {
+          "reward": 1.0
+        },
+        "raman-fitting": {
+          "reward": 0.0
+        },
+        "schemelike-metacircular-eval": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "tune-mjcf": {
+          "reward": 1.0
+        }
+      }
+    },
+    {
+      "score": 4.0,
+      "max_score": 13,
+      "pass_rate": 30.76923076923077,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "reward": 1.0
+        },
+        "chess-best-move": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65535 tokens, but can only afford 8728. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 10700. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 10700. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 9936. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 8694. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 8728. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 7065. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32000 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6359. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}, 'user_id': 'user_2vNnq0TlPyFS0VQAV4UPwK7xvKY'}\", 'context_id': '2e3fcce4-f001-4034-aeb1-c12512cbb127', 'status': 'failed'}"
+        },
+        "count-dataset-tokens": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65535 tokens, but can only afford 8728. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 10700. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 10700. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 9936. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 8694. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 8728. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 7065. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32000 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6359. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}, 'user_id': 'user_2vNnq0TlPyFS0VQAV4UPwK7xvKY'}\", 'context_id': '493a5352-a286-4dd9-991b-bd4d020c0af8', 'status': 'failed'}"
+        },
+        "extract-elf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '6f3bb8b5-45bc-40db-971a-b71356e11e1c', 'status': 'failed'}"
+        },
+        "fix-git": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'ed3390d3-b047-47ca-90fd-d50da7a5d5db', 'status': 'failed'}"
+        },
+        "hf-model-inference": {
+          "reward": 1.0
+        },
+        "mailman": {
+          "error": "Command timed out after 30 seconds"
+        },
+        "mteb-leaderboard": {
+          "reward": 0.0
+        },
+        "path-tracing": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "pypi-server": {
+          "reward": 1.0
+        },
+        "regex-chess": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "sparql-university": {
+          "reward": 1.0
+        },
+        "video-processing": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 5.0,
+      "max_score": 13,
+      "pass_rate": 38.46153846153847,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 0.0
+        },
+        "circuit-fibsqrt": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '1c623690-f055-4a6c-9047-306a703920de', 'status': 'failed'}"
+        },
+        "crack-7z-hash": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '3730bf1e-8825-469e-afef-d5fd4ea25d72', 'status': 'failed'}"
+        },
+        "extract-moves-from-video": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '6d300fe8-7923-4b6f-a112-a00dfd55f083', 'status': 'failed'}"
+        },
+        "fix-ocaml-gc": {
+          "reward": 1.0
+        },
+        "install-windows-3.11": {
+          "reward": 0.0
+        },
+        "make-doom-for-mips": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "mteb-retrieve": {
+          "reward": 0.0
+        },
+        "path-tracing-reverse": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "pytorch-model-cli": {
+          "reward": 1.0
+        },
+        "regex-log": {
+          "reward": 1.0
+        },
+        "sqlite-db-truncate": {
+          "reward": 1.0
+        },
+        "vulnerable-secret": {
+          "reward": 1.0
+        }
+      }
+    },
+    {
+      "score": 4.0,
+      "max_score": 13,
+      "pass_rate": 30.76923076923077,
+      "task_rewards": {
+        "build-cython-ext": {
+          "reward": 0.0
+        },
+        "cobol-modernization": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '4890c117-77eb-4e78-a4d4-23809fa19e27', 'status': 'failed'}"
+        },
+        "custom-memory-heap-crash": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '123d5ed8-eb5f-4f29-953c-5b7e3fe6d708', 'status': 'failed'}"
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'd7aeb08e-e1b7-4be1-aff4-8288bdf99b8d', 'status': 'failed'}"
+        },
+        "gcode-to-text": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '8d514d40-d89d-415d-a743-d57ee08a911d', 'status': 'failed'}"
+        },
+        "kv-store-grpc": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '1c5339de-031c-494c-bfce-b0f40a085fb5', 'status': 'failed'}"
+        },
+        "make-mips-interpreter": {
+          "reward": 0.0
+        },
+        "multi-source-data-merger": {
+          "reward": 1.0
+        },
+        "polyglot-c-py": {
+          "reward": 1.0
+        },
+        "pytorch-model-recovery": {
+          "reward": 1.0
+        },
+        "reshard-c4-data": {
+          "reward": 1.0
+        },
+        "sqlite-with-gcov": {
+          "reward": 0.0
+        },
+        "winning-avg-corewars": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 3.0,
+      "max_score": 13,
+      "pass_rate": 23.076923076923077,
+      "task_rewards": {
+        "build-pmars": {
+          "reward": 1.0
+        },
+        "code-from-image": {
+          "reward": 1.0
+        },
+        "db-wal-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '720e3029-aac5-442e-8180-4cbfc8f2a99f', 'status': 'failed'}"
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '6ab1076c-8e0b-43aa-826d-b5bd87edc7b5', 'status': 'failed'}"
+        },
+        "git-leak-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '92efea71-8dda-473c-be11-b7903b99a2e2', 'status': 'failed'}"
+        },
+        "large-scale-text-editing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'b79de8fd-45ac-4a14-9bad-848abc1e35fb', 'status': 'failed'}"
+        },
+        "mcmc-sampling-stan": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'c91cc835-f102-479b-b90d-1d4823339789', 'status': 'failed'}"
+        },
+        "nginx-request-logging": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '0925d938-fb29-4eca-a676-37fe8b08fab2', 'status': 'failed'}"
+        },
+        "polyglot-rust-c": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '8eaf27a0-ea6e-4de2-9cb4-06f71cfc846d', 'status': 'failed'}"
+        },
+        "qemu-alpine-ssh": {
+          "reward": 1.0
+        },
+        "rstan-to-pystan": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "torch-pipeline-parallelism": {
+          "reward": 0.0
+        },
+        "write-compressor": {
+          "error": "HTTP Error 503: Network communication error: "
+        }
+      }
+    },
+    {
+      "score": 2.0,
+      "max_score": 12,
+      "pass_rate": 16.666666666666664,
+      "task_rewards": {
+        "build-pov-ray": {
+          "reward": 0.0
+        },
+        "compile-compcert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '30eb229b-1cba-4b95-93ab-5f3c25f56176', 'status': 'failed'}"
+        },
+        "distribution-search": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '15c02b3e-9a8a-4105-9776-ada02129f8b4', 'status': 'failed'}"
+        },
+        "filter-js-from-html": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '85340fc9-67de-46c6-9a17-c3cf1d00ec5b', 'status': 'failed'}"
+        },
+        "git-multibranch": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '6732fff0-edfc-461b-9ba4-67993badc09f', 'status': 'failed'}"
+        },
+        "largest-eigenval": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '26c50e36-b87f-4adf-9391-5059214c789d', 'status': 'failed'}"
+        },
+        "merge-diff-arc-agi-task": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'd408a411-b72d-4020-baa0-db4901e184d1', 'status': 'failed'}"
+        },
+        "openssl-selfsigned-cert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '39b45fbc-b266-4289-9403-1387fbc44ff4', 'status': 'failed'}"
+        },
+        "portfolio-optimization": {
+          "reward": 1.0
+        },
+        "qemu-startup": {
+          "reward": 1.0
+        },
+        "sam-cell-seg": {
+          "reward": 0.0
+        },
+        "torch-tensor-parallelism": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 2.0,
+      "max_score": 12,
+      "pass_rate": 16.666666666666664,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65535 tokens, but can only afford 8728. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 10700. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 10700. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 9936. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 8694. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 8728. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 7065. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32000 tokens, but can only afford 6955. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 6359. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}, 'user_id': 'user_2vNnq0TlPyFS0VQAV4UPwK7xvKY'}\", 'context_id': 'a4ab1615-e5c7-47c1-8c7b-522fe59055f4', 'status': 'failed'}"
+        },
+        "configure-git-webserver": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'b7d43a27-c78a-4dde-9444-3e726d65e849', 'status': 'failed'}"
+        },
+        "dna-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '35db2790-146f-40d7-8d0b-effb72f997c6', 'status': 'failed'}"
+        },
+        "financial-document-processor": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '957e7828-7b4c-4565-8240-6919453db3e9', 'status': 'failed'}"
+        },
+        "gpt2-codegolf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'b3ae27db-4e10-4997-837a-8e9310048724', 'status': 'failed'}"
+        },
+        "llm-inference-batching-scheduler": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '48b8fb64-de5e-48de-b691-16a95c48cbc0', 'status': 'failed'}"
+        },
+        "model-extraction-relu-logits": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': '89c77c18-1a2c-4eee-afce-2e6f522d4f56', 'status': 'failed'}"
+        },
+        "overfull-hbox": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'a9960ce8-4b43-44c5-95c6-dbcea1a31bea', 'status': 'failed'}"
+        },
+        "protein-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}\", 'context_id': 'e85931a3-184d-4e32-a123-1a2799bc720f', 'status': 'failed'}"
+        },
+        "query-optimize": {
+          "reward": 1.0
+        },
+        "sanitize-git-repo": {
+          "reward": 1.0
+        },
+        "train-fasttext": {
+          "reward": 0.0
+        }
+      }
+    }
+  ]
+}

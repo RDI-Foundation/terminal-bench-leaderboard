@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019e8bb6-5ee4-70a1-8103-53d29eac4628"
+  },
+  "results": [
+    {
+      "score": 7.0,
+      "max_score": 13,
+      "pass_rate": 53.84615384615385,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "reward": 0.0
+        },
+        "cancel-async-tasks": {
+          "reward": 0.0
+        },
+        "constraints-scheduling": {
+          "reward": 1.0
+        },
+        "dna-insert": {
+          "reward": 0.0
+        },
+        "fix-code-vulnerability": {
+          "reward": 1.0
+        },
+        "headless-terminal": {
+          "reward": 1.0
+        },
+        "log-summary-date-ranges": {
+          "reward": 1.0
+        },
+        "modernize-scientific-stack": {
+          "reward": 1.0
+        },
+        "password-recovery": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "prove-plus-comm": {
+          "reward": 1.0
+        },
+        "raman-fitting": {
+          "reward": 0.0
+        },
+        "schemelike-metacircular-eval": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "tune-mjcf": {
+          "reward": 1.0
+        }
+      }
+    },
+    {
+      "score": 4.0,
+      "max_score": 13,
+      "pass_rate": 30.76923076923077,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "reward": 1.0
+        },
+        "chess-best-move": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "count-dataset-tokens": {
+          "reward": 0.0
+        },
+        "extract-elf": {
+          "reward": 0.0
+        },
+        "fix-git": {
+          "reward": 0.0
+        },
+        "hf-model-inference": {
+          "reward": 1.0
+        },
+        "mailman": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "mteb-leaderboard": {
+          "reward": 0.0
+        },
+        "path-tracing": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "pypi-server": {
+          "reward": 1.0
+        },
+        "regex-chess": {
+          "reward": 0.0
+        },
+        "sparql-university": {
+          "reward": 1.0
+        },
+        "video-processing": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 6.0,
+      "max_score": 13,
+      "pass_rate": 46.15384615384615,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 1.0
+        },
+        "circuit-fibsqrt": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "crack-7z-hash": {
+          "reward": 1.0
+        },
+        "extract-moves-from-video": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "fix-ocaml-gc": {
+          "reward": 0.0
+        },
+        "install-windows-3.11": {
+          "reward": 0.0
+        },
+        "make-doom-for-mips": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "mteb-retrieve": {
+          "reward": 0.0
+        },
+        "path-tracing-reverse": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "pytorch-model-cli": {
+          "reward": 1.0
+        },
+        "regex-log": {
+          "reward": 1.0
+        },
+        "sqlite-db-truncate": {
+          "reward": 1.0
+        },
+        "vulnerable-secret": {
+          "reward": 1.0
+        }
+      }
+    },
+    {
+      "score": 6.0,
+      "max_score": 13,
+      "pass_rate": 46.15384615384615,
+      "task_rewards": {
+        "build-cython-ext": {
+          "reward": 0.0
+        },
+        "cobol-modernization": {
+          "reward": 1.0
+        },
+        "custom-memory-heap-crash": {
+          "reward": 1.0
+        },
+        "feal-differential-cryptanalysis": {
+          "reward": 1.0
+        },
+        "gcode-to-text": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "kv-store-grpc": {
+          "reward": 0.0
+        },
+        "make-mips-interpreter": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "multi-source-data-merger": {
+          "reward": 1.0
+        },
+        "polyglot-c-py": {
+          "reward": 0.0
+        },
+        "pytorch-model-recovery": {
+          "reward": 1.0
+        },
+        "reshard-c4-data": {
+          "reward": 0.0
+        },
+        "sqlite-with-gcov": {
+          "reward": 1.0
+        },
+        "winning-avg-corewars": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 6.0,
+      "max_score": 13,
+      "pass_rate": 46.15384615384615,
+      "task_rewards": {
+        "build-pmars": {
+          "reward": 1.0
+        },
+        "code-from-image": {
+          "reward": 1.0
+        },
+        "db-wal-recovery": {
+          "reward": 0.0
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "git-leak-recovery": {
+          "reward": 1.0
+        },
+        "large-scale-text-editing": {
+          "reward": 0.0
+        },
+        "mcmc-sampling-stan": {
+          "reward": 1.0
+        },
+        "nginx-request-logging": {
+          "reward": 1.0
+        },
+        "polyglot-rust-c": {
+          "reward": 0.0
+        },
+        "qemu-alpine-ssh": {
+          "reward": 1.0
+        },
+        "rstan-to-pystan": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "torch-pipeline-parallelism": {
+          "reward": 0.0
+        },
+        "write-compressor": {
+          "error": "HTTP Error 503: Network communication error: "
+        }
+      }
+    },
+    {
+      "score": 7.0,
+      "max_score": 12,
+      "pass_rate": 58.333333333333336,
+      "task_rewards": {
+        "build-pov-ray": {
+          "reward": 0.0
+        },
+        "compile-compcert": {
+          "reward": 0.0
+        },
+        "distribution-search": {
+          "reward": 1.0
+        },
+        "filter-js-from-html": {
+          "reward": 0.0
+        },
+        "git-multibranch": {
+          "reward": 1.0
+        },
+        "largest-eigenval": {
+          "reward": 1.0
+        },
+        "merge-diff-arc-agi-task": {
+          "reward": 1.0
+        },
+        "openssl-selfsigned-cert": {
+          "reward": 1.0
+        },
+        "portfolio-optimization": {
+          "reward": 1.0
+        },
+        "qemu-startup": {
+          "reward": 1.0
+        },
+        "sam-cell-seg": {
+          "reward": 0.0
+        },
+        "torch-tensor-parallelism": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 4.0,
+      "max_score": 12,
+      "pass_rate": 33.33333333333333,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "configure-git-webserver": {
+          "reward": 1.0
+        },
+        "dna-assembly": {
+          "reward": 0.0
+        },
+        "financial-document-processor": {
+          "reward": 1.0
+        },
+        "gpt2-codegolf": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "llm-inference-batching-scheduler": {
+          "reward": 1.0
+        },
+        "model-extraction-relu-logits": {
+          "reward": 0.0
+        },
+        "overfull-hbox": {
+          "reward": 0.0
+        },
+        "protein-assembly": {
+          "reward": 0.0
+        },
+        "query-optimize": {
+          "reward": 1.0
+        },
+        "sanitize-git-repo": {
+          "reward": 0.0
+        },
+        "train-fasttext": {
+          "reward": 0.0
+        }
+      }
+    }
+  ]
+}

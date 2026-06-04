@@ -1,0 +1,104 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "tester_0815_json_output": {
+        "type": "boolean",
+        "default": false
+      },
+      "tester_0815_model_name": {
+        "type": "string",
+        "default": "z-ai/glm-5"
+      },
+      "tester_0815_openrouter_api_key": {
+        "type": "string",
+        "secret": true
+      },
+      "tester_0815_openrouter_base_url": {
+        "type": "string",
+        "default": "https://openrouter.ai/api/v1"
+      },
+      "tester_0815_reasoning_enabled": {
+        "type": "boolean",
+        "default": true
+      },
+      "tester_0815_retrieval_enabled": {
+        "type": "boolean",
+        "default": false
+      },
+      "tester_0815_tavily_api_key": {
+        "type": "string",
+        "secret": true,
+        "default": ""
+      },
+      "tester_0815_tools_enabled": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "required": [
+      "tester_0815_openrouter_api_key"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.3/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "tasks": "all"
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "tester_0815"
+        },
+        "callback_urls": {}
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/terminal-bench-green/refs/heads/main/amber-manifest.json5",
+      "config": {}
+    },
+    "tester_0815": {
+      "manifest": "https://raw.githubusercontent.com/Luca-Bke/agentswe-general-fork/refs/heads/main/amber-manifest.json5",
+      "config": {
+        "json_output": "${config.tester_0815_json_output}",
+        "model_name": "${config.tester_0815_model_name}",
+        "openrouter_api_key": "${config.tester_0815_openrouter_api_key}",
+        "openrouter_base_url": "${config.tester_0815_openrouter_base_url}",
+        "reasoning_enabled": "${config.tester_0815_reasoning_enabled}",
+        "retrieval_enabled": "${config.tester_0815_retrieval_enabled}",
+        "tavily_api_key": "${config.tester_0815_tavily_api_key}",
+        "tools_enabled": "${config.tester_0815_tools_enabled}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#tester_0815.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+      "tester_0815": "019e92f5-dec6-7d31-b5d8-f6c65ef561b1"
+    }
+  },
+  "experimental_features": [
+    "docker"
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019e9312-8f5b-7c31-b55c-85c67ebd048d"
+  },
+  "results": [
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '23d7905c-96a4-4df5-a16b-d3ad395a7bf8', 'status': 'failed'}"
+        },
+        "cancel-async-tasks": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'e83d2d63-7f0c-4002-8711-b2ebe5f2159d', 'status': 'failed'}"
+        },
+        "constraints-scheduling": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'c6e3646f-4d05-4027-a7b6-9037bcd0b55e', 'status': 'failed'}"
+        },
+        "dna-insert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '06ae518a-fd93-424c-bd5b-be2f34bc4705', 'status': 'failed'}"
+        },
+        "fix-code-vulnerability": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'f0c91f7e-62b4-4523-9c8c-89a546b8f428', 'status': 'failed'}"
+        },
+        "headless-terminal": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '20c436f9-56e2-4961-967a-439b42fd96b6', 'status': 'failed'}"
+        },
+        "log-summary-date-ranges": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '7b3b87ea-09ea-4e85-a0fd-4a9422b51e83', 'status': 'failed'}"
+        },
+        "modernize-scientific-stack": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'f9eba860-8bc7-426e-af5e-82fa484a57d9', 'status': 'failed'}"
+        },
+        "password-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '3d73c663-39f1-4a80-b7bd-703cdb7e6f63', 'status': 'failed'}"
+        },
+        "prove-plus-comm": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '5208ea65-e330-40e4-86f0-81d858d24ee1', 'status': 'failed'}"
+        },
+        "raman-fitting": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '0ca47e00-f86f-402f-b5e4-d3bce31fd633', 'status': 'failed'}"
+        },
+        "schemelike-metacircular-eval": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '74a50074-52b8-4fcf-9c44-ea9d8fa4996f', 'status': 'failed'}"
+        },
+        "tune-mjcf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'b9c7b2dd-f48b-40f8-9e1c-ecbba2fc5f27', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'd9a2e2f3-e198-44dc-bb12-cb837d32b473', 'status': 'failed'}"
+        },
+        "chess-best-move": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '61242ebb-5608-4c7a-bd3a-de0a4c2df3ff', 'status': 'failed'}"
+        },
+        "count-dataset-tokens": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '2af632c1-4df2-4ef5-a9b0-af91b38d4993', 'status': 'failed'}"
+        },
+        "extract-elf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'ed801d2a-f356-4678-ad2f-998383bc4151', 'status': 'failed'}"
+        },
+        "fix-git": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '494ed4bf-fe7a-4cfa-9529-574d4cfb6e3b', 'status': 'failed'}"
+        },
+        "hf-model-inference": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '33c7003e-2142-416f-bcc0-6010d60e4fdb', 'status': 'failed'}"
+        },
+        "mailman": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '3a8fed03-6eb8-44f5-b715-6cff49654a06', 'status': 'failed'}"
+        },
+        "mteb-leaderboard": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '694af859-b3c1-4731-a7bc-309b6a971452', 'status': 'failed'}"
+        },
+        "path-tracing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '7619b77e-fef6-4f4c-b9fa-fce70570c543', 'status': 'failed'}"
+        },
+        "pypi-server": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '05c50ff8-6c03-4d3f-8dcd-77c487ffbd72', 'status': 'failed'}"
+        },
+        "regex-chess": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '054c11b2-1c1f-49f7-9fa2-bf9703d9f253', 'status': 'failed'}"
+        },
+        "sparql-university": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '558dcca4-f560-4914-bb8f-d015cc9d1281', 'status': 'failed'}"
+        },
+        "video-processing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'a2a09832-05dc-42dd-a75a-9ff16d10ff47', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'd2711141-70e0-43b2-8240-9c2e6022e17f', 'status': 'failed'}"
+        },
+        "circuit-fibsqrt": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '94ebd9e4-55b4-4dd0-bce9-afdbbac46750', 'status': 'failed'}"
+        },
+        "crack-7z-hash": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '6a4a7c57-9394-4c9c-92c3-71823170f62a', 'status': 'failed'}"
+        },
+        "extract-moves-from-video": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '97e3b83e-3470-472e-b1b5-6bfce409add1', 'status': 'failed'}"
+        },
+        "fix-ocaml-gc": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'a33d4f91-d42f-4c5e-b868-e9046c35570a', 'status': 'failed'}"
+        },
+        "install-windows-3.11": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '0c964025-c7b3-46a9-bee9-9f43b27a82cc', 'status': 'failed'}"
+        },
+        "make-doom-for-mips": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '6389076e-5a1c-41c9-a211-c67c360f5905', 'status': 'failed'}"
+        },
+        "mteb-retrieve": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'b93a70d9-df05-4238-8175-707721f3b073', 'status': 'failed'}"
+        },
+        "path-tracing-reverse": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '937b7e0c-5c9a-4287-8203-c4ba9dc7edcd', 'status': 'failed'}"
+        },
+        "pytorch-model-cli": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '8b4eea6a-2217-4d44-9c51-2b95d29676f5', 'status': 'failed'}"
+        },
+        "regex-log": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'a1f0a2a1-0df3-449e-a573-27a2c3fd9f5a', 'status': 'failed'}"
+        },
+        "sqlite-db-truncate": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '3c791cd1-a370-4142-aee6-4adbc5b7c976', 'status': 'failed'}"
+        },
+        "vulnerable-secret": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '3c15c48a-9584-4d7f-ad7f-a8757ce5e4f7', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-cython-ext": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '0c942217-eb81-49d0-9411-53a1917336a2', 'status': 'failed'}"
+        },
+        "cobol-modernization": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '2b845f35-c6db-4db4-a803-eae45f42f6d2', 'status': 'failed'}"
+        },
+        "custom-memory-heap-crash": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'f8f2b577-9e1b-40ef-b5dc-e75b996d3789', 'status': 'failed'}"
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '15f05b8b-45b4-4732-a68a-8f18aac8ff77', 'status': 'failed'}"
+        },
+        "gcode-to-text": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '083e0385-c08a-45a1-842d-21fc56bd9047', 'status': 'failed'}"
+        },
+        "kv-store-grpc": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '03b80571-a33a-44b5-b6b0-24e0b1289352', 'status': 'failed'}"
+        },
+        "make-mips-interpreter": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '1a3fb12c-045d-4e59-ad1e-9b9a3c2ae42f', 'status': 'failed'}"
+        },
+        "multi-source-data-merger": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '2206d1f2-7418-4c0d-9b30-5e17b8402c37', 'status': 'failed'}"
+        },
+        "polyglot-c-py": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '0d756d16-dbad-4d94-9194-f3aa08fd5eca', 'status': 'failed'}"
+        },
+        "pytorch-model-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'd1bb1576-e512-4528-859a-45c3fa75e8e7', 'status': 'failed'}"
+        },
+        "reshard-c4-data": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'bda5753d-f3da-4360-8d7a-d651574fb8e1', 'status': 'failed'}"
+        },
+        "sqlite-with-gcov": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '405b24c9-d9c4-457e-b22a-d8b0908af8c6', 'status': 'failed'}"
+        },
+        "winning-avg-corewars": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'fb725670-c478-4aff-b4a4-94d87da0e785', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 13,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pmars": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'c7f9c7f5-7164-46a7-bdd6-4e0db9274183', 'status': 'failed'}"
+        },
+        "code-from-image": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '571e97f0-473f-4064-ad99-fecf155c29c4', 'status': 'failed'}"
+        },
+        "db-wal-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '453aa83d-fd3f-4bea-b6eb-84dd34c57d12', 'status': 'failed'}"
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'e61cdfb0-5283-47e3-b2e9-2e356e5a7708', 'status': 'failed'}"
+        },
+        "git-leak-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '3ab9749d-39d4-4264-b39e-65079217876a', 'status': 'failed'}"
+        },
+        "large-scale-text-editing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '022daaa2-3f29-4793-87ac-ce889e08c595', 'status': 'failed'}"
+        },
+        "mcmc-sampling-stan": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'bf9569d4-5a2a-4a9d-b187-c72398e8dc1c', 'status': 'failed'}"
+        },
+        "nginx-request-logging": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '43cf55b7-f008-4409-8cb8-3140fa8e26db', 'status': 'failed'}"
+        },
+        "polyglot-rust-c": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '7c8a9dc0-7d05-494e-8cf2-6f7d9a81b025', 'status': 'failed'}"
+        },
+        "qemu-alpine-ssh": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '55fba153-90f1-46e7-8b83-b938524ec0c7', 'status': 'failed'}"
+        },
+        "rstan-to-pystan": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'ceabf476-3be9-43a4-8aab-1355df4d7475', 'status': 'failed'}"
+        },
+        "torch-pipeline-parallelism": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '1f7c9eb9-563e-41cb-9e64-461b4e5bb025', 'status': 'failed'}"
+        },
+        "write-compressor": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'c2844681-d924-4dd1-9746-1f1fb8f799f4', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-pov-ray": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'aaaa4068-7f1b-4d8b-b663-c8c28322f489', 'status': 'failed'}"
+        },
+        "compile-compcert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '0ead2e90-ec5a-4ad6-8768-d8928da541d5', 'status': 'failed'}"
+        },
+        "distribution-search": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '339de17d-bd01-4e48-8146-6eddc2867b97', 'status': 'failed'}"
+        },
+        "filter-js-from-html": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '75777440-1b8c-4ce2-8023-e00a31642ad8', 'status': 'failed'}"
+        },
+        "git-multibranch": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '585f3886-abfc-464f-b875-0fbd22c07913', 'status': 'failed'}"
+        },
+        "largest-eigenval": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '14ce2350-c8bc-4276-8c5c-c140141d636f', 'status': 'failed'}"
+        },
+        "merge-diff-arc-agi-task": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'f8827d6f-b003-4a9f-af8c-1b636c45d8fb', 'status': 'failed'}"
+        },
+        "openssl-selfsigned-cert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '514b868e-043d-4094-8301-bc63ad3a26ac', 'status': 'failed'}"
+        },
+        "portfolio-optimization": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '8fec4bf6-bc55-4759-a4e7-9649c6374ec6', 'status': 'failed'}"
+        },
+        "qemu-startup": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '4aaa2021-fc2e-471b-83b1-710b81b40e45', 'status': 'failed'}"
+        },
+        "sam-cell-seg": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '3022701c-49f7-4b34-b20c-25dc40644682', 'status': 'failed'}"
+        },
+        "torch-tensor-parallelism": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '8778383d-5f9c-4f43-87ef-31583b3899be', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 12,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "caffe-cifar-10": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'b940229d-d491-4d4e-b1f1-5e3fa55a469c', 'status': 'failed'}"
+        },
+        "configure-git-webserver": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'e82183e0-97a4-46e6-8005-86168b1f02f0', 'status': 'failed'}"
+        },
+        "dna-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '177f73f8-c13c-4f35-96bf-b6b53b2dedce', 'status': 'failed'}"
+        },
+        "financial-document-processor": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '507b1b4a-be81-4495-bdde-c0e929fcaea8', 'status': 'failed'}"
+        },
+        "gpt2-codegolf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '65e162cd-e5c0-4517-bb6e-1ba6c34f90ce', 'status': 'failed'}"
+        },
+        "llm-inference-batching-scheduler": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '4b06dfed-7269-4ce4-90da-2e59474e5611', 'status': 'failed'}"
+        },
+        "model-extraction-relu-logits": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '3c2b383f-6946-47eb-9970-0db43d8a9eb5', 'status': 'failed'}"
+        },
+        "overfull-hbox": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '65ff2399-1d02-4e36-b4ae-314503eb3c54', 'status': 'failed'}"
+        },
+        "protein-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'b98a5fdc-be5f-4955-ba74-0968f8d33dbb', 'status': 'failed'}"
+        },
+        "query-optimize": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '01d12fa5-4788-420f-8ac2-d6f2443b8fb2', 'status': 'failed'}"
+        },
+        "sanitize-git-repo": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': '96e8f933-9bed-4a6f-913d-3d62bcb36cd3', 'status': 'failed'}"
+        },
+        "train-fasttext": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}, 'user_id': 'user_3DGJhw2mrGzcIr4370SUAw8skXA'}\", 'context_id': 'f3f0614b-0436-4720-86ee-723529dae8c9', 'status': 'failed'}"
+        }
+      }
+    }
+  ]
+}

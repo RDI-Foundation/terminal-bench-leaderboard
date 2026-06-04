@@ -1,0 +1,83 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "eroverflow_academiccloud_api_key": {
+        "type": "string",
+        "secret": true
+      },
+      "eroverflow_tracing_key": {
+        "type": "string",
+        "secret": true
+      },
+      "eroverflow_tracing_project": {
+        "type": "string",
+        "secret": false
+      }
+    },
+    "required": [
+      "eroverflow_academiccloud_api_key"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.3/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "tasks": "all"
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "eroverflow"
+        },
+        "callback_urls": {}
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/terminal-bench-green/refs/heads/main/amber-manifest.json5",
+      "config": {}
+    },
+    "eroverflow": {
+      "manifest": "https://raw.githubusercontent.com/Luca-Bke/EROverflow/refs/heads/main/amber-manifest.json5",
+      "config": {
+        "academiccloud_api_key": "${config.eroverflow_academiccloud_api_key}",
+        "tracing_key": "${config.eroverflow_tracing_key}",
+        "tracing_project": "${config.eroverflow_tracing_project}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#eroverflow.agent"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    },
+    {
+      "to": "#eroverflow.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+      "eroverflow": "019e8472-e017-72f0-9ba9-8c5d20e02d32"
+    }
+  },
+  "experimental_features": [
+    "docker"
+  ]
+}

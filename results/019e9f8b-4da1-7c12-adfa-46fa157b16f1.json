@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d76c2-3bb7-7652-b932-76ad868837b0",
+    "agent": "019e9f23-ca03-7b73-b00a-2e4ff4cb7ddd"
+  },
+  "results": [
+    {
+      "score": 0,
+      "max_score": 1,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "fix-git": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: litellm.BadRequestError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"`temperature` is deprecated for this model.\"},\"request_id\":\"req_011CbnynD4UJmEh6yxNzjhy7\"}', 'context_id': '58230cd4-4344-47f4-9601-73586dab44bc', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    },
+    {
+      "score": 0,
+      "max_score": 0,
+      "pass_rate": 0,
+      "task_rewards": {}
+    }
+  ]
+}

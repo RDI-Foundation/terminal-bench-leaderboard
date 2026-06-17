@@ -1,0 +1,104 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "eroverflow_json_output": {
+        "type": "boolean",
+        "default": false
+      },
+      "eroverflow_model_name": {
+        "type": "string",
+        "default": "z-ai/glm-5"
+      },
+      "eroverflow_openrouter_api_key": {
+        "type": "string",
+        "secret": true
+      },
+      "eroverflow_openrouter_base_url": {
+        "type": "string",
+        "default": "https://openrouter.ai/api/v1"
+      },
+      "eroverflow_reasoning_enabled": {
+        "type": "boolean",
+        "default": true
+      },
+      "eroverflow_retrieval_enabled": {
+        "type": "boolean",
+        "default": false
+      },
+      "eroverflow_tavily_api_key": {
+        "type": "string",
+        "secret": true,
+        "default": ""
+      },
+      "eroverflow_tools_enabled": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "required": [
+      "eroverflow_openrouter_api_key"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.3/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "tasks": "all"
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "eroverflow"
+        },
+        "callback_urls": {}
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/terminal-bench-green/refs/heads/main/amber-manifest.json5",
+      "config": {}
+    },
+    "eroverflow": {
+      "manifest": "https://raw.githubusercontent.com/soumya-batra/agentswe-general/refs/heads/main/amber-manifest.json5",
+      "config": {
+        "json_output": "${config.eroverflow_json_output}",
+        "model_name": "${config.eroverflow_model_name}",
+        "openrouter_api_key": "${config.eroverflow_openrouter_api_key}",
+        "openrouter_base_url": "${config.eroverflow_openrouter_base_url}",
+        "reasoning_enabled": "${config.eroverflow_reasoning_enabled}",
+        "retrieval_enabled": "${config.eroverflow_retrieval_enabled}",
+        "tavily_api_key": "${config.eroverflow_tavily_api_key}",
+        "tools_enabled": "${config.eroverflow_tools_enabled}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#eroverflow.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+      "eroverflow": "019e9312-8f5b-7c31-b55c-85c67ebd048d"
+    }
+  },
+  "experimental_features": [
+    "docker"
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019e8472-e017-72f0-9ba9-8c5d20e02d32"
+  },
+  "results": [
+    {
+      "score": 0,
+      "max_score": 30,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '266e8b5d-d2bc-4246-9fec-1bef4d9b3cf2', 'status': 'failed'}"
+        },
+        "build-cython-ext": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '843da59e-5fd8-4bce-a6ad-32639b02648e', 'status': 'failed'}"
+        },
+        "caffe-cifar-10": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'ef6ef3ab-dfbb-4efe-ba4e-976b6bca971a', 'status': 'failed'}"
+        },
+        "circuit-fibsqrt": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '59f6572a-7c21-4a0c-b32f-7cbb45a11795', 'status': 'failed'}"
+        },
+        "compile-compcert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '486c3247-95ec-4124-b083-6e7556d18dd8', 'status': 'failed'}"
+        },
+        "count-dataset-tokens": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '7ff8c8ea-4955-4ca0-89ed-5f1e116fc5df', 'status': 'failed'}"
+        },
+        "db-wal-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'bd475350-d3e3-41d1-a475-dbc48c2f4792', 'status': 'failed'}"
+        },
+        "dna-insert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '5e99dbda-9cb3-462b-96f5-9020ef6edc47', 'status': 'failed'}"
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '30bb507a-d9c9-414a-bdc2-b9a9676562b8', 'status': 'failed'}"
+        },
+        "financial-document-processor": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '47ac565b-891a-4cc7-a726-75d0c7416aef', 'status': 'failed'}"
+        },
+        "fix-ocaml-gc": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'f9ead93f-4ac0-42f1-b2cd-de835df758f3', 'status': 'failed'}"
+        },
+        "git-multibranch": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '595dde6d-3868-4035-8957-6e2838390657', 'status': 'failed'}"
+        },
+        "hf-model-inference": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'dd7bd619-462a-4b7b-81f4-e846a941e809', 'status': 'failed'}"
+        },
+        "large-scale-text-editing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '44c8cc56-60ed-4e0c-820f-6cb1ca00909d', 'status': 'failed'}"
+        },
+        "log-summary-date-ranges": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'd01fc662-587a-4f4c-8d33-e20d6d119521', 'status': 'failed'}"
+        },
+        "make-mips-interpreter": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'e9d5b9f0-b24d-4416-b70f-82f19fdda3f6', 'status': 'failed'}"
+        },
+        "model-extraction-relu-logits": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'c604488c-972d-4c0a-bbff-0cfe9929f008', 'status': 'failed'}"
+        },
+        "mteb-retrieve": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'f8632372-048a-4c58-84dc-5b9ca5211e38', 'status': 'failed'}"
+        },
+        "openssl-selfsigned-cert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'b2c23fa0-1d31-486f-bf59-201c15a5c471', 'status': 'failed'}"
+        },
+        "path-tracing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'fcc0544e-edc5-41d4-9f6d-de2bd2ed401a', 'status': 'failed'}"
+        },
+        "polyglot-rust-c": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'a665eaa4-30dd-4a75-8947-c8e16c476728', 'status': 'failed'}"
+        },
+        "prove-plus-comm": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'e8186dda-4462-4a39-8179-d107649944ad', 'status': 'failed'}"
+        },
+        "pytorch-model-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '35ad0efc-50d9-480d-b751-f4d989a17387', 'status': 'failed'}"
+        },
+        "query-optimize": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'a1c7ba8d-e85e-4d58-87f9-6cb1f2102e51', 'status': 'failed'}"
+        },
+        "regex-log": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '33bb02c3-0733-4104-a84b-7de77e53e3be', 'status': 'failed'}"
+        },
+        "sam-cell-seg": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '18aa50da-e2be-4c6f-9c73-4c7ceccc5460', 'status': 'failed'}"
+        },
+        "sparql-university": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '5fd8fa19-215b-4606-9ddd-908ab445eb3c', 'status': 'failed'}"
+        },
+        "torch-pipeline-parallelism": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '7c96aa9c-0d07-4471-89b3-98a6ae1fbaee', 'status': 'failed'}"
+        },
+        "tune-mjcf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '4d30195f-f514-457a-9bd2-96582c431844', 'status': 'failed'}"
+        },
+        "winning-avg-corewars": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '5bc7137c-bb1e-4b54-b745-3a9523f99aad', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 30,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '55574c81-1783-430e-a443-09071b28c310', 'status': 'failed'}"
+        },
+        "build-pmars": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '2d250f93-2b8a-4ad4-8024-3461746e94ad', 'status': 'failed'}"
+        },
+        "cancel-async-tasks": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'ba1439fd-b152-4f82-8627-91daeeb2894b', 'status': 'failed'}"
+        },
+        "cobol-modernization": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'c413a8d9-b62f-41db-bc6e-71d2ced6208b', 'status': 'failed'}"
+        },
+        "configure-git-webserver": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '55b6e48d-90ee-43e7-9909-c29ca5c9eb0d', 'status': 'failed'}"
+        },
+        "crack-7z-hash": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '598c4030-b8b6-416f-9896-963f1377a1b2', 'status': 'failed'}"
+        },
+        "distribution-search": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '6acfc3b9-b06a-4c1a-80a6-4abb1e43660f', 'status': 'failed'}"
+        },
+        "extract-elf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '9dbbbed5-6859-4249-ab55-bac09ce7c7cd', 'status': 'failed'}"
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '239f139e-c729-4811-88b9-cb91e7c694f2', 'status': 'failed'}"
+        },
+        "fix-code-vulnerability": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'b182ecf1-25cb-4f07-99a0-3fdcaee33e5b', 'status': 'failed'}"
+        },
+        "gcode-to-text": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'e513dcf8-8f50-49b5-9a1f-892e52f061cc', 'status': 'failed'}"
+        },
+        "gpt2-codegolf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'be96a877-1add-4b02-851f-a8515a385b2d', 'status': 'failed'}"
+        },
+        "install-windows-3.11": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '87e33cad-2240-4d92-bd48-009136a60086', 'status': 'failed'}"
+        },
+        "largest-eigenval": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'ec563572-701f-4195-a7f8-b0dbdc0a1393', 'status': 'failed'}"
+        },
+        "mailman": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '9cbc46a6-1243-40fe-8af2-9f0508a3e7d3', 'status': 'failed'}"
+        },
+        "mcmc-sampling-stan": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'b68f43aa-6cd7-4db0-8e08-72124011168a', 'status': 'failed'}"
+        },
+        "modernize-scientific-stack": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '6eb0ea95-3af9-47a5-9515-a5ab301f3277', 'status': 'failed'}"
+        },
+        "multi-source-data-merger": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'd94760d4-5b53-40a3-b33f-6037cb59986c', 'status': 'failed'}"
+        },
+        "overfull-hbox": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '0f54360f-7b2c-4be5-ba52-c673a21f63f1', 'status': 'failed'}"
+        },
+        "path-tracing-reverse": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'b430bb07-4b99-49f3-8b6c-b38c5128f323', 'status': 'failed'}"
+        },
+        "portfolio-optimization": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '15da180c-8e1d-4858-b227-6df9ecb2dbee', 'status': 'failed'}"
+        },
+        "pypi-server": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'f45dbdaf-a935-498d-b92b-ace616976563', 'status': 'failed'}"
+        },
+        "qemu-alpine-ssh": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'c8e24aef-62ba-4e15-951b-e2fac26d6fef', 'status': 'failed'}"
+        },
+        "raman-fitting": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'c4a50277-d586-40e7-a401-c524c7014dd5', 'status': 'failed'}"
+        },
+        "reshard-c4-data": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '2c51a93b-c89c-4c1b-bbdf-ed84560b80e7', 'status': 'failed'}"
+        },
+        "sanitize-git-repo": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '5ee2d1ab-218b-4ff5-a59d-b414e8ea5b40', 'status': 'failed'}"
+        },
+        "sqlite-db-truncate": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'f4bd6d0b-0888-4cc8-a3ee-195e95282c52', 'status': 'failed'}"
+        },
+        "torch-tensor-parallelism": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '2ed226df-bfda-419e-a0ca-52ab231fe89e', 'status': 'failed'}"
+        },
+        "video-processing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'd20b77e9-a832-426c-bc9b-9860d83f9132', 'status': 'failed'}"
+        },
+        "write-compressor": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '3f97a5e1-ebf9-48d7-803a-4242f4341d58', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0,
+      "max_score": 29,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '9cc2066c-8fc0-447d-9217-763604aafb89', 'status': 'failed'}"
+        },
+        "build-pov-ray": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '8029ac3f-9d06-440b-aeb1-1c88c2321904', 'status': 'failed'}"
+        },
+        "chess-best-move": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'c66e2220-944e-4266-b5f2-d87ae2bff6c3', 'status': 'failed'}"
+        },
+        "code-from-image": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '53643f3e-00f9-4ca7-9343-4df3a53e4989', 'status': 'failed'}"
+        },
+        "constraints-scheduling": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'c8ba6e61-06b6-45e6-8127-c93cacbb523f', 'status': 'failed'}"
+        },
+        "custom-memory-heap-crash": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'fd166aed-5430-4a9d-b031-91d9c952daad', 'status': 'failed'}"
+        },
+        "dna-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'bfd1a9b2-27a3-49a5-a5c9-f5989a4de35c', 'status': 'failed'}"
+        },
+        "extract-moves-from-video": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '14549e61-b437-43fa-9711-bd53ecf21ac1', 'status': 'failed'}"
+        },
+        "filter-js-from-html": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'fe7ce412-1ba0-4594-8db1-573e88d55721', 'status': 'failed'}"
+        },
+        "fix-git": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '0dc2ff1d-e679-421f-aa96-9cfcf00889a0', 'status': 'failed'}"
+        },
+        "git-leak-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '141395f4-4957-4b51-9f21-a9c76cc0c9ee', 'status': 'failed'}"
+        },
+        "headless-terminal": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'f0b6c050-0132-4abc-b2d8-fd1aea1cfdb1', 'status': 'failed'}"
+        },
+        "kv-store-grpc": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '82669a18-f57e-423a-906b-bc17b7d279b6', 'status': 'failed'}"
+        },
+        "llm-inference-batching-scheduler": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'a572956d-6692-4c46-b05f-71d4e06e40ce', 'status': 'failed'}"
+        },
+        "make-doom-for-mips": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'ffe242aa-0429-4254-8b7d-ca5b96bb4319', 'status': 'failed'}"
+        },
+        "merge-diff-arc-agi-task": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'cbf35d4a-daba-45ff-be6d-1360795747eb', 'status': 'failed'}"
+        },
+        "mteb-leaderboard": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '65e9c05b-e8e5-4b6f-bd5c-160fdfc1d6da', 'status': 'failed'}"
+        },
+        "nginx-request-logging": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '4c8a8e33-3f7a-4b5b-827f-5ec9c9407a28', 'status': 'failed'}"
+        },
+        "password-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '3364481a-8382-4f1e-802c-2b3138531bdb', 'status': 'failed'}"
+        },
+        "polyglot-c-py": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '476b5315-de42-4724-9e4e-ead270cb96e1', 'status': 'failed'}"
+        },
+        "protein-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '702babe1-6c80-445f-9de9-025061c8d623', 'status': 'failed'}"
+        },
+        "pytorch-model-cli": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'afe45b44-f127-46dc-8bfb-bb45316a1510', 'status': 'failed'}"
+        },
+        "qemu-startup": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'e5b7c2dd-ecd3-43ad-806a-1d563e1cd406', 'status': 'failed'}"
+        },
+        "regex-chess": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '60c71154-5506-4a89-bb7e-854c6435d74d', 'status': 'failed'}"
+        },
+        "rstan-to-pystan": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '4b774363-0593-400d-ab39-be9ac0d024b8', 'status': 'failed'}"
+        },
+        "schemelike-metacircular-eval": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '5747d827-7516-46e2-90b6-877bf2421362', 'status': 'failed'}"
+        },
+        "sqlite-with-gcov": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '48e72817-aa8a-4aa5-b396-f0aa88ae0c9c', 'status': 'failed'}"
+        },
+        "train-fasttext": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': 'e1c51189-6376-4e8b-a663-17781a990086', 'status': 'failed'}"
+        },
+        "vulnerable-secret": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': 'Agent error: Error code: 503 - {\\'detail\\': \"Engine provisioning failed: No compatible partition found for model \\'vllm/qwen3.6:27b-fp8\\' with quantization \\'FP8\\'. Add a scheduling rule targeting a GPU generation in [\\'blackwell\\', \\'hopper\\'].\"}', 'context_id': '76c29986-fd99-47b4-a742-fb1106305a67', 'status': 'failed'}"
+        }
+      }
+    }
+  ]
+}

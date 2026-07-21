@@ -1,0 +1,311 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d87ef-2c6d-7091-8d93-827799c2ade3",
+    "agent": "019e8472-e017-72f0-9ba9-8c5d20e02d32"
+  },
+  "results": [
+    {
+      "score": 1.0,
+      "max_score": 18,
+      "pass_rate": 5.555555555555555,
+      "task_rewards": {
+        "adaptive-rejection-sampler": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "build-pov-ray": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'a50e3b40-fa33-48b1-bb83-e8c1e957679a', 'status': 'failed'}"
+        },
+        "cobol-modernization": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '8d5fb210-c298-4b9a-a201-45f2d9e6b729', 'status': 'failed'}"
+        },
+        "count-dataset-tokens": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '7c9aa5dc-1644-4170-a837-64bc2d536d3d', 'status': 'failed'}"
+        },
+        "dna-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'ddd28dd0-d52b-47b8-8bb1-c0c59fc400a7', 'status': 'failed'}"
+        },
+        "feal-linear-cryptanalysis": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '2d2809c5-7f4d-4395-923d-fad5e9d9b341', 'status': 'failed'}"
+        },
+        "fix-ocaml-gc": {
+          "reward": 0.0
+        },
+        "headless-terminal": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '432612cf-37be-40eb-837c-545e75415ca4', 'status': 'failed'}"
+        },
+        "largest-eigenval": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '78d79ecb-4488-4096-a466-0ecf8b1d9bad', 'status': 'failed'}"
+        },
+        "make-mips-interpreter": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '67b25875-8f72-4c8d-8621-454155cff073', 'status': 'failed'}"
+        },
+        "mteb-leaderboard": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '839d4298-203c-415c-9fc4-6d4431636702', 'status': 'failed'}"
+        },
+        "overfull-hbox": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '53480474-49c2-463a-81dc-fee5a35d1210', 'status': 'failed'}"
+        },
+        "polyglot-rust-c": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "pytorch-model-cli": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '930d781d-d80c-4c70-a310-bdb9753d9ce2', 'status': 'failed'}"
+        },
+        "raman-fitting": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '75fd958b-e1a4-4fad-a3a1-2541103fe697', 'status': 'failed'}"
+        },
+        "sam-cell-seg": {
+          "reward": 0.0
+        },
+        "sqlite-with-gcov": {
+          "reward": 1.0
+        },
+        "video-processing": {
+          "reward": 0.0
+        }
+      }
+    },
+    {
+      "score": 2.0,
+      "max_score": 18,
+      "pass_rate": 11.11111111111111,
+      "task_rewards": {
+        "bn-fit-modify": {
+          "reward": 0.0
+        },
+        "caffe-cifar-10": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'ab919c38-0d52-44c5-ba03-cbfa8cb0f5ed', 'status': 'failed'}"
+        },
+        "code-from-image": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '5f6cb2a5-3db3-4af7-a0b1-355dde2d9f7d', 'status': 'failed'}"
+        },
+        "crack-7z-hash": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '92354ceb-5c09-48ad-a979-0a9f5382e453', 'status': 'failed'}"
+        },
+        "dna-insert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '0d21e6ec-4f32-4bca-8647-98a20390cbea', 'status': 'failed'}"
+        },
+        "filter-js-from-html": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '818132ac-56de-49a9-a9ec-67e29f2efe99', 'status': 'failed'}"
+        },
+        "gcode-to-text": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '76dea1b8-f443-4a02-bd3c-15ab4bd9572a', 'status': 'failed'}"
+        },
+        "hf-model-inference": {
+          "reward": 1.0
+        },
+        "llm-inference-batching-scheduler": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '8a316346-bf17-41e1-a06a-d51cbc4fcba6', 'status': 'failed'}"
+        },
+        "mcmc-sampling-stan": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '66eb45a1-029f-4b85-9ab1-033d0f1053ae', 'status': 'failed'}"
+        },
+        "mteb-retrieve": {
+          "reward": 0.0
+        },
+        "password-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '832a53fb-b049-46de-88ea-7ec3a622ef53', 'status': 'failed'}"
+        },
+        "portfolio-optimization": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '47a9b2db-a000-4ad0-b699-58c3d9110df0', 'status': 'failed'}"
+        },
+        "pytorch-model-recovery": {
+          "reward": 1.0
+        },
+        "regex-chess": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '72bf9022-29f0-4f43-9ef9-afa5367cdda3', 'status': 'failed'}"
+        },
+        "sanitize-git-repo": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'fe25e67e-8cf2-48f0-80bb-a64834959d6a', 'status': 'failed'}"
+        },
+        "torch-pipeline-parallelism": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'f04958a1-fadd-4c93-9e72-c20e80bd0720', 'status': 'failed'}"
+        },
+        "vulnerable-secret": {
+          "error": "Command timed out after 300 seconds"
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 18,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "break-filter-js-from-html": {
+          "reward": 0.0
+        },
+        "cancel-async-tasks": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '110821c6-11e9-4917-85fa-f04795df7e7f', 'status': 'failed'}"
+        },
+        "compile-compcert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'ebdeab35-204b-4bbc-b942-bc526a195251', 'status': 'failed'}"
+        },
+        "custom-memory-heap-crash": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'bc947542-b513-4276-837e-5411fbb0b0ed', 'status': 'failed'}"
+        },
+        "extract-elf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'a9ed3573-9a04-4c6d-9841-8055779f68b6', 'status': 'failed'}"
+        },
+        "financial-document-processor": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'c86d63fa-0d66-4326-b0ca-a9e901055f96', 'status': 'failed'}"
+        },
+        "git-leak-recovery": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "install-windows-3.11": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '6056bbc2-3011-4f39-8440-2ad1fbeffa21', 'status': 'failed'}"
+        },
+        "log-summary-date-ranges": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '48324e16-7f2f-4a9a-81d6-6dfe5c4314d4', 'status': 'failed'}"
+        },
+        "merge-diff-arc-agi-task": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'b8ed80c1-ab50-407e-acd7-e4cfe31e1b7a', 'status': 'failed'}"
+        },
+        "multi-source-data-merger": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'c11bcd8c-08ec-40a2-a2f2-a4cc8a47eda2', 'status': 'failed'}"
+        },
+        "path-tracing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'abd5b8c3-f734-4578-8736-7d496a7ed110', 'status': 'failed'}"
+        },
+        "protein-assembly": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'e93dbe5d-0e57-4de1-9678-90e7543fbda2', 'status': 'failed'}"
+        },
+        "qemu-alpine-ssh": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '03765a52-7dd6-40e4-9dd8-491a8c042a4d', 'status': 'failed'}"
+        },
+        "regex-log": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'e556aae0-8c4b-4ecd-84a3-85c5e8823428', 'status': 'failed'}"
+        },
+        "schemelike-metacircular-eval": {
+          "reward": 0.0
+        },
+        "torch-tensor-parallelism": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "winning-avg-corewars": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '2a75e5e8-c921-40c7-a1a9-d24b9e485be5', 'status': 'failed'}"
+        }
+      }
+    },
+    {
+      "score": 0.0,
+      "max_score": 18,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "build-cython-ext": {
+          "reward": 0.0
+        },
+        "chess-best-move": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '49aca4fa-bdfc-43e7-a425-34a76b10debf', 'status': 'failed'}"
+        },
+        "configure-git-webserver": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '08e51391-e577-4472-b99b-02c40674c1b9', 'status': 'failed'}"
+        },
+        "db-wal-recovery": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'ba777868-6dec-4cd7-b6b2-bd0ce2e1d5a3', 'status': 'failed'}"
+        },
+        "extract-moves-from-video": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'fa9b63ed-ac2c-402b-8b3d-e7c335fd9054', 'status': 'failed'}"
+        },
+        "fix-code-vulnerability": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '3055b947-1370-4e53-aa29-f67a6dfd75f4', 'status': 'failed'}"
+        },
+        "git-multibranch": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'c6172d62-68f5-4672-a294-6c13b8cf8fa7', 'status': 'failed'}"
+        },
+        "kv-store-grpc": {
+          "reward": 0.0
+        },
+        "mailman": {
+          "reward": 0.0
+        },
+        "model-extraction-relu-logits": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '33326167-5177-4912-b304-7067cb5e8745', 'status': 'failed'}"
+        },
+        "nginx-request-logging": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '3264d078-1e69-4404-b868-28191aeb1e88', 'status': 'failed'}"
+        },
+        "path-tracing-reverse": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '4a8631c1-a95a-406b-9c5a-95cb4dc4ca20', 'status': 'failed'}"
+        },
+        "prove-plus-comm": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'a6a72d6b-712a-4bc4-b9ad-83074449cc49', 'status': 'failed'}"
+        },
+        "qemu-startup": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '165a9953-3bd7-4aa5-b97c-f7a770a858fa', 'status': 'failed'}"
+        },
+        "reshard-c4-data": {
+          "reward": 0.0
+        },
+        "sparql-university": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '6d1ce412-ab2d-44e6-a49c-456c22039e3c', 'status': 'failed'}"
+        },
+        "train-fasttext": {
+          "error": "Command timed out after 300 seconds"
+        },
+        "write-compressor": {
+          "error": "HTTP Error 503: Network communication error: "
+        }
+      }
+    },
+    {
+      "score": 2.0,
+      "max_score": 17,
+      "pass_rate": 11.76470588235294,
+      "task_rewards": {
+        "build-pmars": {
+          "reward": 1.0
+        },
+        "circuit-fibsqrt": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '1b9e1c19-463e-4145-93c6-3a1f6d92bc8a', 'status': 'failed'}"
+        },
+        "constraints-scheduling": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '1c972428-bc1f-4631-a7e2-250e109f65c4', 'status': 'failed'}"
+        },
+        "distribution-search": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'e68c1528-e59b-490b-a2e5-4c557254f9fd', 'status': 'failed'}"
+        },
+        "feal-differential-cryptanalysis": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '3a6bdbdc-dc5c-4dfb-a854-711225f2475d', 'status': 'failed'}"
+        },
+        "fix-git": {
+          "reward": 1.0
+        },
+        "gpt2-codegolf": {
+          "error": "Command timed out after 300 seconds"
+        },
+        "large-scale-text-editing": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '3728655f-32dc-47d9-a0e4-f9e9b1b9c281', 'status': 'failed'}"
+        },
+        "make-doom-for-mips": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'fb6acbba-d2df-4c19-aa79-1d5b7a92bd96', 'status': 'failed'}"
+        },
+        "modernize-scientific-stack": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'a1c4b2ef-8e87-415f-b5ee-6d35d95872ef', 'status': 'failed'}"
+        },
+        "openssl-selfsigned-cert": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'e02ac07d-b0eb-4435-ab1d-9cac1032b908', 'status': 'failed'}"
+        },
+        "polyglot-c-py": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '7c54e8c7-4b3e-4f37-87a5-7e1f5fce8906', 'status': 'failed'}"
+        },
+        "pypi-server": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': 'ecf18957-be9b-453a-a623-24616781e3b4', 'status': 'failed'}"
+        },
+        "query-optimize": {
+          "error": "Command timed out after 300 seconds"
+        },
+        "rstan-to-pystan": {
+          "error": "HTTP Error 503: Network communication error: "
+        },
+        "sqlite-db-truncate": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '9fa16e00-8a16-42f9-b7f9-2c297f6e37c9', 'status': 'failed'}"
+        },
+        "tune-mjcf": {
+          "error": "http://127.0.0.1:8080/agent responded with: {'response': \"Agent error: Error code: 503 - {'detail': 'No capacity available for this model. Please retry later.'}\", 'context_id': '1de8e1a2-4bb0-4aca-b81d-aa3a20ebb478', 'status': 'failed'}"
+        }
+      }
+    }
+  ]
+}
